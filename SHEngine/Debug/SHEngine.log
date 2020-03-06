@@ -1,0 +1,17 @@
+﻿  Game.cpp
+  GameState.cpp
+  GameStateManager.cpp
+  Gif.cpp
+  Image.cpp
+  ListaT.cpp
+  NodoT.cpp
+  Platform.cpp
+C:\SHEngine\SHEngine\Platform.cpp(177,22): warning C4244: '=': conversión de 'Sint32' a 'float'; posible pérdida de datos
+C:\SHEngine\SHEngine\Platform.cpp(179,22): warning C4244: '=': conversión de 'Sint32' a 'float'; posible pérdida de datos
+  SHEngine.cpp
+C:\SHEngine\SHEngine\SHEngine.cpp(14,15): warning C4129: 'S': secuencia de escape de carácter no reconocida
+C:\SHEngine\SHEngine\SHEngine.cpp(14,15): warning C4129: 'c': secuencia de escape de carácter no reconocida
+  StackT.cpp
+  Text.cpp
+  Generando código...
+  SHEngine.vcxproj -> C:\SHEngine\Debug\SHEngine.exe
