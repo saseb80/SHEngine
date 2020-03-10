@@ -159,9 +159,11 @@
     <ClCompile Include="Gif.cpp" />
     <ClCompile Include="Image.cpp" />
     <ClCompile Include="ListaT.cpp" />
+    <ClCompile Include="Logging.cpp" />
     <ClCompile Include="NodoT.cpp" />
     <ClCompile Include="Platform.cpp" />
     <ClCompile Include="SHEngine.cpp" />
+    <ClCompile Include="StackAllocator.cpp" />
     <ClCompile Include="StackT.cpp" />
     <ClCompile Include="Text.cpp" />
   </ItemGroup>
@@ -172,9 +174,11 @@
     <ClInclude Include="Gif.h" />
     <ClInclude Include="Image.h" />
     <ClInclude Include="ListaT.h" />
+    <ClInclude Include="Logging.h" />
     <ClInclude Include="NodoT.h" />
     <ClInclude Include="Platform.h" />
     <ClInclude Include="SimpleIni.h" />
+    <ClInclude Include="StackAllocator.h" />
     <ClInclude Include="StackT.h" />
     <ClInclude Include="Text.h" />
   </ItemGroup>

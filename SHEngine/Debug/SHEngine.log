@@ -1,6 +1,2 @@
-﻿  Platform.cpp
-C:\SHEngine\SHEngine\Platform.cpp(151,22): warning C4244: '=': conversión de 'Sint32' a 'float'; posible pérdida de datos
-C:\SHEngine\SHEngine\Platform.cpp(153,22): warning C4244: '=': conversión de 'Sint32' a 'float'; posible pérdida de datos
-  SHEngine.cpp
-  Generando código...
-  SHEngine.vcxproj -> C:\SHEngine\Debug\SHEngine.exe
+﻿  SHEngine.cpp
+  SHEngine.vcxproj -> C:\Tareas\Septimo\SHEngine\Debug\SHEngine.exe
