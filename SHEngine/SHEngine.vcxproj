@@ -159,7 +159,7 @@
     <ClCompile Include="Gif.cpp" />
     <ClCompile Include="Image.cpp" />
     <ClCompile Include="ListaT.cpp" />
-    <ClCompile Include="Logging.cpp" />
+    <ClCompile Include="Bitacora.cpp" />
     <ClCompile Include="NodoT.cpp" />
     <ClCompile Include="Platform.cpp" />
     <ClCompile Include="SHEngine.cpp" />
@@ -174,7 +174,7 @@
     <ClInclude Include="Gif.h" />
     <ClInclude Include="Image.h" />
     <ClInclude Include="ListaT.h" />
-    <ClInclude Include="Logging.h" />
+    <ClInclude Include="Bitacora.h" />
     <ClInclude Include="NodoT.h" />
     <ClInclude Include="Platform.h" />
     <ClInclude Include="SimpleIni.h" />

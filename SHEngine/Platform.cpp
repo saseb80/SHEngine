@@ -9,7 +9,7 @@ SDL_Renderer* Platform::renderer;
 
 Platform::Platform(std::string name){
 	CSimpleIniA ini;
-	ini.LoadFile("C:\\Tareas\\Septimo\\SHEngine\\cfg.ini");
+	ini.LoadFile("C:\\SHEngine\\cfg.ini");
 	int x = std::stoi(ini.GetValue("RESOLUTION", "width", ""));
 	int y = std::stoi(ini.GetValue("RESOLUTION", "height", ""));
 

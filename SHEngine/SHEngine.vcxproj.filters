@@ -51,7 +51,7 @@
     <ClCompile Include="StackAllocator.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="Logging.cpp">
+    <ClCompile Include="Bitacora.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
   </ItemGroup>
@@ -92,7 +92,7 @@
     <ClInclude Include="StackAllocator.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="Logging.h">
+    <ClInclude Include="Bitacora.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
   </ItemGroup>

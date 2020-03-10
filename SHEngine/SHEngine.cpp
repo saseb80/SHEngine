@@ -6,15 +6,16 @@
 #include "Game.h"
 #include <time.h>
 #include "SimpleIni.h"
-#include "Logging.h"
+#include "Bitacora.h"
 
 int main(int argc, char* argv[]) {
 
-	Logging l;
-	l.Mensaje("Info", "Main", "Informacion");
-	l.Mensaje("Debug","Main","Debug");
-	l.Mensaje("Warning", "Main", "Advertencia");
-	l.Mensaje("Error", "Main", "Errores");
+	Bitacora l;
+	l.ImprimirConsola("WASSUP");
+	l.Mensaje(Info, "Main", "Informacion");
+	l.Mensaje(Debug,"Main","Debug");
+	l.Mensaje(Warning, "Main", "Advertencia");
+	l.Mensaje(Error, "Main", "Errores");
 	GameStateManager* manager = new GameStateManager();
 	manager->SetState(new Game());
 	manager->GameLoop();
