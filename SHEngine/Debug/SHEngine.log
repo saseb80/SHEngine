@@ -1,4 +1,6 @@
-﻿  SHEngine.cpp
-C:\SHEngine\SHEngine\SHEngine.cpp(14,15): warning C4129: 'S': secuencia de escape de carácter no reconocida
-C:\SHEngine\SHEngine\SHEngine.cpp(14,15): warning C4129: 'c': secuencia de escape de carácter no reconocida
+﻿  Platform.cpp
+C:\SHEngine\SHEngine\Platform.cpp(151,22): warning C4244: '=': conversión de 'Sint32' a 'float'; posible pérdida de datos
+C:\SHEngine\SHEngine\Platform.cpp(153,22): warning C4244: '=': conversión de 'Sint32' a 'float'; posible pérdida de datos
+  SHEngine.cpp
+  Generando código...
   SHEngine.vcxproj -> C:\SHEngine\Debug\SHEngine.exe

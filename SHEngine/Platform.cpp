@@ -1,4 +1,5 @@
 #include "Platform.h"
+#include "SimpleIni.h"
 #include "SDL.h"
 #include <iostream>
 #include "GameState.h"
@@ -6,51 +7,47 @@
 
 SDL_Renderer* Platform::renderer;
 
-Platform::Platform(std::string name)
-{
-	width = 1920;
-	height = 1080;
-	/*width = 720;
-	height = 480;*/
+Platform::Platform(std::string name){
+	CSimpleIniA ini;
+	ini.LoadFile("C:\\SHEngine\\cfg.ini");
+	int x = std::stoi(ini.GetValue("RESOLUTION", "width", ""));
+	int y = std::stoi(ini.GetValue("RESOLUTION", "height", ""));
 
-	if (SDL_Init(SDL_INIT_VIDEO) != 0)
-	{
+	width = x;
+	height = y;
+
+	if (SDL_Init(SDL_INIT_VIDEO) != 0){
 		std::cout << "SDL_Init";
 		return;
 	}
 
 	window = SDL_CreateWindow(name.c_str(), SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, width, height, SDL_WINDOW_SHOWN);
 	//window = SDL_CreateWindow(name.c_str(), SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, width, height, SDL_WINDOW_FULLSCREEN);
-	if (window == nullptr)
-	{
+	if (window == nullptr){
 		std::cout << "CreateWindow";
 		SDL_Quit();
 		return;
 	}
 
 	renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED | SDL_RENDERER_PRESENTVSYNC);
-	if (renderer == nullptr)
-	{
+	if (renderer == nullptr){
 		std::cout << "CreateRenderer";
 		SDL_Quit();
 		return;
 	}
 }
 
-void Platform::RenderClear()
-{
+void Platform::RenderClear(){
 	SDL_SetRenderDrawColor(renderer, 0, 0, 0, 255);
 	SDL_RenderClear(renderer);
 }
 
-void Platform::RenderPresent()
-{
+void Platform::RenderPresent(){
 	SDL_RenderPresent(renderer);
 }
 
 
-void Platform::DrawRect(int x, int y, int w, int h)
-{
+void Platform::DrawRect(int x, int y, int w, int h){
 	SDL_Rect rect;
 	rect.x = x;
 	rect.y = y;
@@ -62,13 +59,11 @@ void Platform::DrawRect(int x, int y, int w, int h)
 
 }
 
-void Platform::RenderImage(Image* image, int x, int y, float angle)
-{
+void Platform::RenderImage(Image* image, int x, int y, float angle){
 	RenderTexture(image, x, y, angle);
 }
 
-void Platform::RenderTexture(Image* image, int x, int y, double a)
-{
+void Platform::RenderTexture(Image* image, int x, int y, double a){
 	SDL_Rect srcrect;
 	srcrect.x = x;
 	srcrect.y = y;
@@ -78,19 +73,16 @@ void Platform::RenderTexture(Image* image, int x, int y, double a)
 		, NULL, &srcrect, a, NULL, SDL_FLIP_NONE);
 }
 
-Platform::~Platform()
-{
+Platform::~Platform(){
 }
 
-ListaT<SDL_Event>& Platform::GetFrameEvents()
-{
+ListaT<SDL_Event>& Platform::GetFrameEvents(){
 	//static std::vector<SDL_Event> frame_events;
 	static ListaT<SDL_Event> frame_events;
 	return frame_events;
 }
 
-void Platform::CheckEvent(GameState* obj, bool (GameState::* f)(ListaT<int>* keyDowns, ListaT<int>* keyUps, bool *leftclick, float *mouseX, float *mouseY))
-{
+void Platform::CheckEvent(GameState* obj, bool (GameState::* f)(ListaT<int>* keyDowns, ListaT<int>* keyUps, bool *leftclick, float *mouseX, float *mouseY)){
 	SDL_Event e;
 	ListaT<int> keysDown;
 	ListaT<int> keysUp;
@@ -98,77 +90,59 @@ void Platform::CheckEvent(GameState* obj, bool (GameState::* f)(ListaT<int>* key
 	float _mouseX = lastmouseX;
 	float _mouseY = lastmouseY;
 
-	while (SDL_PollEvent(&e))
-	{
-		switch (e.type)
-		{
+	while (SDL_PollEvent(&e)){
+		switch (e.type){
 		case SDL_KEYDOWN:
-			if (e.key.keysym.sym == SDLK_LEFT)
-			{
+			if (e.key.keysym.sym == SDLK_LEFT){
 				keysDown.push_back(SDLK_LEFT);
 			}
-			if (e.key.keysym.sym == SDLK_RIGHT)
-			{
+			if (e.key.keysym.sym == SDLK_RIGHT){
 				keysDown.push_back(SDLK_RIGHT);
 			}
-			if (e.key.keysym.sym == SDLK_UP)
-			{
+			if (e.key.keysym.sym == SDLK_UP){
 				keysDown.push_back(SDLK_UP);
 			}
-			if (e.key.keysym.sym == SDLK_DOWN)
-			{
+			if (e.key.keysym.sym == SDLK_DOWN){
 				keysDown.push_back(SDLK_DOWN);
 			}
-			if (e.key.keysym.sym == SDLK_SPACE)
-			{
+			if (e.key.keysym.sym == SDLK_SPACE){
 				keysDown.push_back(SDLK_SPACE);
 			}
-			if (e.key.keysym.sym == SDLK_ESCAPE)
-			{
+			if (e.key.keysym.sym == SDLK_ESCAPE){
 				keysDown.push_back(SDLK_ESCAPE);
 			}
-			if (e.key.keysym.sym == SDLK_s)
-			{
+			if (e.key.keysym.sym == SDLK_s){
 				keysDown.push_back(SDLK_s);
 			}
-			if (e.key.keysym.sym == SDLK_BACKSPACE)
-			{
+			if (e.key.keysym.sym == SDLK_BACKSPACE){
 				keysDown.push_back(SDLK_BACKSPACE);
 			}
 			break;
 
 
 		case SDL_KEYUP:
-			if (e.key.keysym.sym == SDLK_LEFT)
-			{
+			if (e.key.keysym.sym == SDLK_LEFT){
 				keysUp.push_back(SDLK_LEFT);
 			}
-			if (e.key.keysym.sym == SDLK_RIGHT)
-			{
+			if (e.key.keysym.sym == SDLK_RIGHT){
 				keysUp.push_back(SDLK_RIGHT);
 			}
-			if (e.key.keysym.sym == SDLK_UP)
-			{
+			if (e.key.keysym.sym == SDLK_UP){
 				keysUp.push_back(SDLK_UP);
 			}
-			if (e.key.keysym.sym == SDLK_DOWN)
-			{
+			if (e.key.keysym.sym == SDLK_DOWN){
 				keysUp.push_back(SDLK_DOWN);
 			}
-			if (e.key.keysym.sym == SDLK_SPACE)
-			{
+			if (e.key.keysym.sym == SDLK_SPACE){
 				keysUp.push_back(SDLK_SPACE);
 			}
-			if (e.key.keysym.sym == SDLK_ESCAPE)
-			{
+			if (e.key.keysym.sym == SDLK_ESCAPE){
 				keysUp.push_back(SDLK_ESCAPE);
 			}
-			if (e.key.keysym.sym == SDLK_s)
-			{
+			if (e.key.keysym.sym == SDLK_s){
 				keysUp.push_back(SDLK_s);
 			}
-			if (e.key.keysym.sym == SDLK_BACKSPACE)
-			{
+			if (e.key.keysym.sym == SDLK_BACKSPACE){
 				keysDown.push_back(SDLK_BACKSPACE);
 			}
 			break;
@@ -183,22 +157,18 @@ void Platform::CheckEvent(GameState* obj, bool (GameState::* f)(ListaT<int>* key
 		case SDL_MOUSEBUTTONDOWN:
 		{
 			SDL_MouseButtonEvent& b = e.button;
-			if (b.button == SDL_BUTTON_LEFT)
-			{
+			if (b.button == SDL_BUTTON_LEFT){
 				_leftclick = true;
 			}
 		}
 			
 			break;
-		case SDL_MOUSEBUTTONUP:
-		{
+		case SDL_MOUSEBUTTONUP:{
 			SDL_MouseButtonEvent& B = e.button;
-			if (B.button == SDL_BUTTON_LEFT)
-			{
+			if (B.button == SDL_BUTTON_LEFT){
 				_leftclick = false;
 			}
-		}
-			
+		}			
 			break;
 		}
 	}
