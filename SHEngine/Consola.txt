@@ -1,364 +1,1185 @@
-Game Init
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
-Game Input
-Game Input
-Game Draw
+[11:38:33] Debug     Game     Game Init
+[11:38:33] Debug     Game     Game Input
+[11:38:33] Debug     Game     Game Update
+[11:38:33] Debug     Game     Game Draw
+[11:38:33] Debug     Game     Game Input
+[11:38:33] Debug     Game     Game Update
+[11:38:33] Debug     Game     Game Draw
+[11:38:33] Debug     Game     Game Input
+[11:38:33] Debug     Game     Game Update
+[11:38:33] Debug     Game     Game Draw
+[11:38:34] Debug     Game     Game Input
+[11:38:34] Debug     Game     Game Update
+[11:38:34] Debug     Game     Game Draw
+[11:38:34] Debug     Game     Game Input
+[11:38:34] Debug     Game     Game Update
+[11:38:34] Debug     Game     Game Draw
+[11:38:34] Debug     Game     Game Input
+[11:38:34] Debug     Game     Game Update
+[11:38:34] Debug     Game     Game Draw
+[11:38:34] Debug     Game     Game Input
+[11:38:34] Debug     Game     Game Update
+[11:38:34] Debug     Game     Game Draw
+[11:38:34] Debug     Game     Game Input
+[11:38:34] Debug     Game     Game Update
+[11:38:34] Debug     Game     Game Draw
+[11:38:34] Debug     Game     Game Input
+[11:38:34] Debug     Game     Game Update
+[11:38:34] Debug     Game     Game Draw
+[11:38:34] Debug     Game     Game Input
+[11:38:34] Debug     Game     Game Update
+[11:38:34] Debug     Game     Game Draw
+[11:38:34] Debug     Game     Game Input
+[11:38:34] Debug     Game     Game Update
+[11:38:34] Debug     Game     Game Draw
+[11:38:34] Debug     Game     Game Input
+[11:38:34] Debug     Game     Game Update
+[11:38:34] Debug     Game     Game Draw
+[11:38:34] Debug     Game     Game Input
+[11:38:34] Debug     Game     Game Update
+[11:38:34] Debug     Game     Game Draw
+[11:38:34] Debug     Game     Game Input
+[11:38:34] Debug     Game     Game Update
+[11:38:34] Debug     Game     Game Draw
+[11:38:34] Debug     Game     Game Input
+[11:38:34] Debug     Game     Game Update
+[11:38:34] Debug     Game     Game Draw
+[11:38:34] Debug     Game     Game Input
+[11:38:34] Debug     Game     Game Update
+[11:38:34] Debug     Game     Game Draw
+[11:38:34] Debug     Game     Game Input
+[11:38:34] Debug     Game     Game Update
+[11:38:34] Debug     Game     Game Draw
+[11:38:34] Debug     Game     Game Input
+[11:38:34] Debug     Game     Game Update
+[11:38:34] Debug     Game     Game Draw
+[11:38:34] Debug     Game     Game Input
+[11:38:34] Debug     Game     Game Update
+[11:38:34] Debug     Game     Game Draw
+[11:38:34] Debug     Game     Game Input
+[11:38:34] Debug     Game     Game Update
+[11:38:34] Debug     Game     Game Draw
+[11:38:34] Debug     Game     Game Input
+[11:38:34] Debug     Game     Game Update
+[11:38:34] Debug     Game     Game Draw
+[11:38:34] Debug     Game     Game Input
+[11:38:34] Debug     Game     Game Update
+[11:38:34] Debug     Game     Game Draw
+[11:38:34] Debug     Game     Game Input
+[11:38:34] Debug     Game     Game Update
+[11:38:34] Debug     Game     Game Draw
+[11:38:34] Debug     Game     Game Input
+[11:38:34] Debug     Game     Game Update
+[11:38:34] Debug     Game     Game Draw
+[11:38:34] Debug     Game     Game Input
+[11:38:34] Debug     Game     Game Update
+[11:38:34] Debug     Game     Game Draw
+[11:38:34] Debug     Game     Game Input
+[11:38:34] Debug     Game     Game Update
+[11:38:34] Debug     Game     Game Draw
+[11:38:34] Debug     Game     Game Input
+[11:38:34] Debug     Game     Game Update
+[11:38:34] Debug     Game     Game Draw
+[11:38:34] Debug     Game     Game Input
+[11:38:34] Debug     Game     Game Update
+[11:38:34] Debug     Game     Game Draw
+[11:38:34] Debug     Game     Game Input
+[11:38:34] Debug     Game     Game Update
+[11:38:34] Debug     Game     Game Draw
+[11:38:34] Debug     Game     Game Input
+[11:38:34] Debug     Game     Game Update
+[11:38:34] Debug     Game     Game Draw
+[11:38:34] Debug     Game     Game Input
+[11:38:34] Debug     Game     Game Update
+[11:38:34] Debug     Game     Game Draw
+[11:38:34] Debug     Game     Game Input
+[11:38:34] Debug     Game     Game Update
+[11:38:34] Debug     Game     Game Draw
+[11:38:34] Debug     Game     Game Input
+[11:38:34] Debug     Game     Game Update
+[11:38:34] Debug     Game     Game Draw
+[11:38:34] Debug     Game     Game Input
+[11:38:34] Debug     Game     Game Update
+[11:38:34] Debug     Game     Game Draw
+[11:38:34] Debug     Game     Game Input
+[11:38:34] Debug     Game     Game Update
+[11:38:34] Debug     Game     Game Draw
+[11:38:34] Debug     Game     Game Input
+[11:38:34] Debug     Game     Game Update
+[11:38:34] Debug     Game     Game Draw
+[11:38:34] Debug     Game     Game Input
+[11:38:34] Debug     Game     Game Update
+[11:38:34] Debug     Game     Game Draw
+[11:38:34] Debug     Game     Game Input
+[11:38:34] Debug     Game     Game Update
+[11:38:34] Debug     Game     Game Draw
+[11:38:34] Debug     Game     Game Input
+[11:38:34] Debug     Game     Game Update
+[11:38:34] Debug     Game     Game Draw
+[11:38:34] Debug     Game     Game Input
+[11:38:34] Debug     Game     Game Update
+[11:38:34] Debug     Game     Game Draw
+[11:38:34] Debug     Game     Game Input
+[11:38:34] Debug     Game     Game Update
+[11:38:34] Debug     Game     Game Draw
+[11:38:34] Debug     Game     Game Input
+[11:38:34] Debug     Game     Game Update
+[11:38:34] Debug     Game     Game Draw
+[11:38:34] Debug     Game     Game Input
+[11:38:34] Debug     Game     Game Update
+[11:38:34] Debug     Game     Game Draw
+[11:38:34] Debug     Game     Game Input
+[11:38:34] Debug     Game     Game Update
+[11:38:34] Debug     Game     Game Draw
+[11:38:34] Debug     Game     Game Input
+[11:38:34] Debug     Game     Game Update
+[11:38:34] Debug     Game     Game Draw
+[11:38:34] Debug     Game     Game Input
+[11:38:34] Debug     Game     Game Update
+[11:38:34] Debug     Game     Game Draw
+[11:38:34] Debug     Game     Game Input
+[11:38:34] Debug     Game     Game Update
+[11:38:34] Debug     Game     Game Draw
+[11:38:34] Debug     Game     Game Input
+[11:38:34] Debug     Game     Game Update
+[11:38:34] Debug     Game     Game Draw
+[11:38:34] Debug     Game     Game Input
+[11:38:34] Debug     Game     Game Update
+[11:38:34] Debug     Game     Game Draw
+[11:38:34] Debug     Game     Game Input
+[11:38:34] Debug     Game     Game Update
+[11:38:34] Debug     Game     Game Draw
+[11:38:34] Debug     Game     Game Input
+[11:38:34] Debug     Game     Game Update
+[11:38:34] Debug     Game     Game Draw
+[11:38:34] Debug     Game     Game Input
+[11:38:34] Debug     Game     Game Update
+[11:38:34] Debug     Game     Game Draw
+[11:38:34] Debug     Game     Game Input
+[11:38:34] Debug     Game     Game Update
+[11:38:34] Debug     Game     Game Draw
+[11:38:34] Debug     Game     Game Input
+[11:38:34] Debug     Game     Game Update
+[11:38:34] Debug     Game     Game Draw
+[11:38:34] Debug     Game     Game Input
+[11:38:34] Debug     Game     Game Update
+[11:38:34] Debug     Game     Game Draw
+[11:38:34] Debug     Game     Game Input
+[11:38:34] Debug     Game     Game Update
+[11:38:34] Debug     Game     Game Draw
+[11:38:34] Debug     Game     Game Input
+[11:38:34] Debug     Game     Game Update
+[11:38:34] Debug     Game     Game Draw
+[11:38:34] Debug     Game     Game Input
+[11:38:34] Debug     Game     Game Update
+[11:38:34] Debug     Game     Game Draw
+[11:38:34] Debug     Game     Game Input
+[11:38:34] Debug     Game     Game Update
+[11:38:34] Debug     Game     Game Draw
+[11:38:34] Debug     Game     Game Input
+[11:38:34] Debug     Game     Game Update
+[11:38:34] Debug     Game     Game Draw
+[11:38:34] Debug     Game     Game Input
+[11:38:34] Debug     Game     Game Update
+[11:38:34] Debug     Game     Game Draw
+[11:38:34] Debug     Game     Game Input
+[11:38:34] Debug     Game     Game Update
+[11:38:34] Debug     Game     Game Draw
+[11:38:34] Debug     Game     Game Input
+[11:38:34] Debug     Game     Game Update
+[11:38:34] Debug     Game     Game Draw
+[11:38:35] Debug     Game     Game Input
+[11:38:35] Debug     Game     Game Update
+[11:38:35] Debug     Game     Game Draw
+[11:38:35] Debug     Game     Game Input
+[11:38:35] Debug     Game     Game Update
+[11:38:35] Debug     Game     Game Draw
+[11:38:35] Debug     Game     Game Input
+[11:38:35] Debug     Game     Game Update
+[11:38:35] Debug     Game     Game Draw
+[11:38:35] Debug     Game     Game Input
+[11:38:35] Debug     Game     Game Update
+[11:38:35] Debug     Game     Game Draw
+[11:38:35] Debug     Game     Game Input
+[11:38:35] Debug     Game     Game Update
+[11:38:35] Debug     Game     Game Draw
+[11:38:35] Debug     Game     Game Input
+[11:38:35] Debug     Game     Game Update
+[11:38:35] Debug     Game     Game Draw
+[11:38:35] Debug     Game     Game Input
+[11:38:35] Debug     Game     Game Update
+[11:38:35] Debug     Game     Game Draw
+[11:38:35] Debug     Game     Game Input
+[11:38:35] Debug     Game     Game Update
+[11:38:35] Debug     Game     Game Draw
+[11:38:35] Debug     Game     Game Input
+[11:38:35] Debug     Game     Game Update
+[11:38:35] Debug     Game     Game Draw
+[11:38:35] Debug     Game     Game Input
+[11:38:35] Debug     Game     Game Update
+[11:38:35] Debug     Game     Game Draw
+[11:38:35] Debug     Game     Game Input
+[11:38:35] Debug     Game     Game Update
+[11:38:35] Debug     Game     Game Draw
+[11:38:35] Debug     Game     Game Input
+[11:38:35] Debug     Game     Game Update
+[11:38:35] Debug     Game     Game Draw
+[11:38:35] Debug     Game     Game Input
+[11:38:35] Debug     Game     Game Update
+[11:38:35] Debug     Game     Game Draw
+[11:38:35] Debug     Game     Game Input
+[11:38:35] Debug     Game     Game Update
+[11:38:35] Debug     Game     Game Draw
+[11:38:35] Debug     Game     Game Input
+[11:38:35] Debug     Game     Game Update
+[11:38:35] Debug     Game     Game Draw
+[11:38:35] Debug     Game     Game Input
+[11:38:35] Debug     Game     Game Update
+[11:38:35] Debug     Game     Game Draw
+[11:38:35] Debug     Game     Game Input
+[11:38:35] Debug     Game     Game Update
+[11:38:35] Debug     Game     Game Draw
+[11:38:35] Debug     Game     Game Input
+[11:38:35] Debug     Game     Game Update
+[11:38:35] Debug     Game     Game Draw
+[11:38:35] Debug     Game     Game Input
+[11:38:35] Debug     Game     Game Update
+[11:38:35] Debug     Game     Game Draw
+[11:38:35] Debug     Game     Game Input
+[11:38:35] Debug     Game     Game Update
+[11:38:35] Debug     Game     Game Draw
+[11:38:35] Debug     Game     Game Input
+[11:38:35] Debug     Game     Game Update
+[11:38:35] Debug     Game     Game Draw
+[11:38:35] Debug     Game     Game Input
+[11:38:35] Debug     Game     Game Update
+[11:38:35] Debug     Game     Game Draw
+[11:38:35] Debug     Game     Game Input
+[11:38:35] Debug     Game     Game Update
+[11:38:35] Debug     Game     Game Draw
+[11:38:35] Debug     Game     Game Input
+[11:38:35] Debug     Game     Game Update
+[11:38:35] Debug     Game     Game Draw
+[11:38:35] Debug     Game     Game Input
+[11:38:35] Debug     Game     Game Update
+[11:38:35] Debug     Game     Game Draw
+[11:38:35] Debug     Game     Game Input
+[11:38:35] Debug     Game     Game Update
+[11:38:35] Debug     Game     Game Draw
+[11:38:35] Debug     Game     Game Input
+[11:38:35] Debug     Game     Game Update
+[11:38:35] Debug     Game     Game Draw
+[11:38:35] Debug     Game     Game Input
+[11:38:35] Debug     Game     Game Update
+[11:38:35] Debug     Game     Game Draw
+[11:38:35] Debug     Game     Game Input
+[11:38:35] Debug     Game     Game Update
+[11:38:35] Debug     Game     Game Draw
+[11:38:35] Debug     Game     Game Input
+[11:38:35] Debug     Game     Game Update
+[11:38:35] Debug     Game     Game Draw
+[11:38:35] Debug     Game     Game Input
+[11:38:35] Debug     Game     Game Update
+[11:38:35] Debug     Game     Game Draw
+[11:38:35] Debug     Game     Game Input
+[11:38:35] Debug     Game     Game Update
+[11:38:35] Debug     Game     Game Draw
+[11:38:35] Debug     Game     Game Input
+[11:38:35] Debug     Game     Game Update
+[11:38:35] Debug     Game     Game Draw
+[11:38:35] Debug     Game     Game Input
+[11:38:35] Debug     Game     Game Update
+[11:38:35] Debug     Game     Game Draw
+[11:38:35] Debug     Game     Game Input
+[11:38:35] Debug     Game     Game Update
+[11:38:35] Debug     Game     Game Draw
+[11:38:35] Debug     Game     Game Input
+[11:38:35] Debug     Game     Game Update
+[11:38:35] Debug     Game     Game Draw
+[11:38:35] Debug     Game     Game Input
+[11:38:35] Debug     Game     Game Update
+[11:38:35] Debug     Game     Game Draw
+[11:38:35] Debug     Game     Game Input
+[11:38:35] Debug     Game     Game Update
+[11:38:35] Debug     Game     Game Draw
+[11:38:35] Debug     Game     Game Input
+[11:38:35] Debug     Game     Game Update
+[11:38:35] Debug     Game     Game Draw
+[11:38:35] Debug     Game     Game Input
+[11:38:35] Debug     Game     Game Update
+[11:38:35] Debug     Game     Game Draw
+[11:38:35] Debug     Game     Game Input
+[11:38:35] Debug     Game     Game Update
+[11:38:35] Debug     Game     Game Draw
+[11:38:35] Debug     Game     Game Input
+[11:38:35] Debug     Game     Game Update
+[11:38:35] Debug     Game     Game Draw
+[11:38:35] Debug     Game     Game Input
+[11:38:35] Debug     Game     Game Update
+[11:38:35] Debug     Game     Game Draw
+[11:38:35] Debug     Game     Game Input
+[11:38:35] Debug     Game     Game Update
+[11:38:35] Debug     Game     Game Draw
+[11:38:35] Debug     Game     Game Input
+[11:38:35] Debug     Game     Game Update
+[11:38:35] Debug     Game     Game Draw
+[11:38:35] Debug     Game     Game Input
+[11:38:35] Debug     Game     Game Update
+[11:38:35] Debug     Game     Game Draw
+[11:38:35] Debug     Game     Game Input
+[11:38:35] Debug     Game     Game Update
+[11:38:35] Debug     Game     Game Draw
+[11:38:35] Debug     Game     Game Input
+[11:38:35] Debug     Game     Game Update
+[11:38:35] Debug     Game     Game Draw
+[11:38:35] Debug     Game     Game Input
+[11:38:35] Debug     Game     Game Update
+[11:38:35] Debug     Game     Game Draw
+[11:38:35] Debug     Game     Game Input
+[11:38:35] Debug     Game     Game Update
+[11:38:35] Debug     Game     Game Draw
+[11:38:35] Debug     Game     Game Input
+[11:38:35] Debug     Game     Game Update
+[11:38:35] Debug     Game     Game Draw
+[11:38:35] Debug     Game     Game Input
+[11:38:35] Debug     Game     Game Update
+[11:38:35] Debug     Game     Game Draw
+[11:38:35] Debug     Game     Game Input
+[11:38:35] Debug     Game     Game Update
+[11:38:35] Debug     Game     Game Draw
+[11:38:35] Debug     Game     Game Input
+[11:38:35] Debug     Game     Game Update
+[11:38:35] Debug     Game     Game Draw
+[11:38:35] Debug     Game     Game Input
+[11:38:35] Debug     Game     Game Update
+[11:38:35] Debug     Game     Game Draw
+[11:38:35] Debug     Game     Game Input
+[11:38:35] Debug     Game     Game Update
+[11:38:35] Debug     Game     Game Draw
+[11:38:35] Debug     Game     Game Input
+[11:38:35] Debug     Game     Game Update
+[11:38:35] Debug     Game     Game Draw
+[11:38:35] Debug     Game     Game Input
+[11:38:35] Debug     Game     Game Update
+[11:38:35] Debug     Game     Game Draw
+[11:38:35] Debug     Game     Game Input
+[11:38:35] Debug     Game     Game Update
+[11:38:35] Debug     Game     Game Draw
+[11:38:35] Debug     Game     Game Input
+[11:38:35] Debug     Game     Game Update
+[11:38:35] Debug     Game     Game Draw
+[11:38:36] Debug     Game     Game Input
+[11:38:36] Debug     Game     Game Update
+[11:38:36] Debug     Game     Game Draw
+[11:38:36] Debug     Game     Game Input
+[11:38:36] Debug     Game     Game Update
+[11:38:36] Debug     Game     Game Draw
+[11:38:36] Debug     Game     Game Input
+[11:38:36] Debug     Game     Game Update
+[11:38:36] Debug     Game     Game Draw
+[11:38:36] Debug     Game     Game Input
+[11:38:36] Debug     Game     Game Update
+[11:38:36] Debug     Game     Game Draw
+[11:38:36] Debug     Game     Game Input
+[11:38:36] Debug     Game     Game Update
+[11:38:36] Debug     Game     Game Draw
+[11:38:36] Debug     Game     Game Input
+[11:38:36] Debug     Game     Game Update
+[11:38:36] Debug     Game     Game Draw
+[11:38:36] Debug     Game     Game Input
+[11:38:36] Debug     Game     Game Update
+[11:38:36] Debug     Game     Game Draw
+[11:38:36] Debug     Game     Game Input
+[11:38:36] Debug     Game     Game Update
+[11:38:36] Debug     Game     Game Draw
+[11:38:36] Debug     Game     Game Input
+[11:38:36] Debug     Game     Game Update
+[11:38:36] Debug     Game     Game Draw
+[11:38:36] Debug     Game     Game Input
+[11:38:36] Debug     Game     Game Update
+[11:38:36] Debug     Game     Game Draw
+[11:38:36] Debug     Game     Game Input
+[11:38:36] Debug     Game     Game Update
+[11:38:36] Debug     Game     Game Draw
+[11:38:36] Debug     Game     Game Input
+[11:38:36] Debug     Game     Game Update
+[11:38:36] Debug     Game     Game Draw
+[11:38:36] Debug     Game     Game Input
+[11:38:36] Debug     Game     Game Update
+[11:38:36] Debug     Game     Game Draw
+[11:38:36] Debug     Game     Game Input
+[11:38:36] Debug     Game     Game Update
+[11:38:36] Debug     Game     Game Draw
+[11:38:36] Debug     Game     Game Input
+[11:38:36] Debug     Game     Game Update
+[11:38:36] Debug     Game     Game Draw
+[11:38:36] Debug     Game     Game Input
+[11:38:36] Debug     Game     Game Update
+[11:38:36] Debug     Game     Game Draw
+[11:38:36] Debug     Game     Game Input
+[11:38:36] Debug     Game     Game Update
+[11:38:36] Debug     Game     Game Draw
+[11:38:36] Debug     Game     Game Input
+[11:38:36] Debug     Game     Game Update
+[11:38:36] Debug     Game     Game Draw
+[11:38:36] Debug     Game     Game Input
+[11:38:36] Debug     Game     Game Update
+[11:38:36] Debug     Game     Game Draw
+[11:38:36] Debug     Game     Game Input
+[11:38:36] Debug     Game     Game Update
+[11:38:36] Debug     Game     Game Draw
+[11:38:36] Debug     Game     Game Input
+[11:38:36] Debug     Game     Game Update
+[11:38:36] Debug     Game     Game Draw
+[11:38:36] Debug     Game     Game Input
+[11:38:36] Debug     Game     Game Update
+[11:38:36] Debug     Game     Game Draw
+[11:38:36] Debug     Game     Game Input
+[11:38:36] Debug     Game     Game Update
+[11:38:36] Debug     Game     Game Draw
+[11:38:36] Debug     Game     Game Input
+[11:38:36] Debug     Game     Game Update
+[11:38:36] Debug     Game     Game Draw
+[11:38:36] Debug     Game     Game Input
+[11:38:36] Debug     Game     Game Update
+[11:38:36] Debug     Game     Game Draw
+[11:38:36] Debug     Game     Game Input
+[11:38:36] Debug     Game     Game Update
+[11:38:36] Debug     Game     Game Draw
+[11:38:36] Debug     Game     Game Input
+[11:38:36] Debug     Game     Game Update
+[11:38:36] Debug     Game     Game Draw
+[11:38:36] Debug     Game     Game Input
+[11:38:36] Debug     Game     Game Update
+[11:38:36] Debug     Game     Game Draw
+[11:38:36] Debug     Game     Game Input
+[11:38:36] Debug     Game     Game Update
+[11:38:36] Debug     Game     Game Draw
+[11:38:36] Debug     Game     Game Input
+[11:38:36] Debug     Game     Game Update
+[11:38:36] Debug     Game     Game Draw
+[11:38:36] Debug     Game     Game Input
+[11:38:36] Debug     Game     Game Update
+[11:38:36] Debug     Game     Game Draw
+[11:38:36] Debug     Game     Game Input
+[11:38:36] Debug     Game     Game Update
+[11:38:36] Debug     Game     Game Draw
+[11:38:36] Debug     Game     Game Input
+[11:38:36] Debug     Game     Game Update
+[11:38:36] Debug     Game     Game Draw
+[11:38:36] Debug     Game     Game Input
+[11:38:36] Debug     Game     Game Update
+[11:38:36] Debug     Game     Game Draw
+[11:38:36] Debug     Game     Game Input
+[11:38:36] Debug     Game     Game Update
+[11:38:36] Debug     Game     Game Draw
+[11:38:36] Debug     Game     Game Input
+[11:38:36] Debug     Game     Game Update
+[11:38:36] Debug     Game     Game Draw
+[11:38:36] Debug     Game     Game Input
+[11:38:36] Debug     Game     Game Update
+[11:38:36] Debug     Game     Game Draw
+[11:38:36] Debug     Game     Game Input
+[11:38:36] Debug     Game     Game Update
+[11:38:36] Debug     Game     Game Draw
+[11:38:36] Debug     Game     Game Input
+[11:38:36] Debug     Game     Game Update
+[11:38:36] Debug     Game     Game Draw
+[11:38:36] Debug     Game     Game Input
+[11:38:36] Debug     Game     Game Update
+[11:38:36] Debug     Game     Game Draw
+[11:38:36] Debug     Game     Game Input
+[11:38:36] Debug     Game     Game Update
+[11:38:36] Debug     Game     Game Draw
+[11:38:36] Debug     Game     Game Input
+[11:38:36] Debug     Game     Game Update
+[11:38:36] Debug     Game     Game Draw
+[11:38:36] Debug     Game     Game Input
+[11:38:36] Debug     Game     Game Update
+[11:38:36] Debug     Game     Game Draw
+[11:38:36] Debug     Game     Game Input
+[11:38:36] Debug     Game     Game Update
+[11:38:36] Debug     Game     Game Draw
+[11:38:36] Debug     Game     Game Input
+[11:38:36] Debug     Game     Game Update
+[11:38:36] Debug     Game     Game Draw
+[11:38:36] Debug     Game     Game Input
+[11:38:36] Debug     Game     Game Update
+[11:38:36] Debug     Game     Game Draw
+[11:38:36] Debug     Game     Game Input
+[11:38:36] Debug     Game     Game Update
+[11:38:36] Debug     Game     Game Draw
+[11:38:36] Debug     Game     Game Input
+[11:38:36] Debug     Game     Game Update
+[11:38:36] Debug     Game     Game Draw
+[11:38:36] Debug     Game     Game Input
+[11:38:36] Debug     Game     Game Update
+[11:38:36] Debug     Game     Game Draw
+[11:38:36] Debug     Game     Game Input
+[11:38:36] Debug     Game     Game Update
+[11:38:36] Debug     Game     Game Draw
+[11:38:36] Debug     Game     Game Input
+[11:38:36] Debug     Game     Game Update
+[11:38:36] Debug     Game     Game Draw
+[11:38:36] Debug     Game     Game Input
+[11:38:36] Debug     Game     Game Update
+[11:38:36] Debug     Game     Game Draw
+[11:38:36] Debug     Game     Game Input
+[11:38:36] Debug     Game     Game Update
+[11:38:36] Debug     Game     Game Draw
+[11:38:36] Debug     Game     Game Input
+[11:38:36] Debug     Game     Game Update
+[11:38:36] Debug     Game     Game Draw
+[11:38:36] Debug     Game     Game Input
+[11:38:36] Debug     Game     Game Update
+[11:38:36] Debug     Game     Game Draw
+[11:38:36] Debug     Game     Game Input
+[11:38:36] Debug     Game     Game Update
+[11:38:36] Debug     Game     Game Draw
+[11:38:36] Debug     Game     Game Input
+[11:38:36] Debug     Game     Game Update
+[11:38:36] Debug     Game     Game Draw
+[11:38:36] Debug     Game     Game Input
+[11:38:36] Debug     Game     Game Update
+[11:38:36] Debug     Game     Game Draw
+[11:38:36] Debug     Game     Game Input
+[11:38:36] Debug     Game     Game Update
+[11:38:36] Debug     Game     Game Draw
+[11:38:36] Debug     Game     Game Input
+[11:38:36] Debug     Game     Game Update
+[11:38:36] Debug     Game     Game Draw
+[11:38:37] Debug     Game     Game Input
+[11:38:37] Debug     Game     Game Update
+[11:38:37] Debug     Game     Game Draw
+[11:38:37] Debug     Game     Game Input
+[11:38:37] Debug     Game     Game Update
+[11:38:37] Debug     Game     Game Draw
+[11:38:37] Debug     Game     Game Input
+[11:38:37] Debug     Game     Game Update
+[11:38:37] Debug     Game     Game Draw
+[11:38:37] Debug     Game     Game Input
+[11:38:37] Debug     Game     Game Update
+[11:38:37] Debug     Game     Game Draw
+[11:38:37] Debug     Game     Game Input
+[11:38:37] Debug     Game     Game Update
+[11:38:37] Debug     Game     Game Draw
+[11:38:37] Debug     Game     Game Input
+[11:38:37] Debug     Game     Game Update
+[11:38:37] Debug     Game     Game Draw
+[11:38:37] Debug     Game     Game Input
+[11:38:37] Debug     Game     Game Update
+[11:38:37] Debug     Game     Game Draw
+[11:38:37] Debug     Game     Game Input
+[11:38:37] Debug     Game     Game Update
+[11:38:37] Debug     Game     Game Draw
+[11:38:37] Debug     Game     Game Input
+[11:38:37] Debug     Game     Game Update
+[11:38:37] Debug     Game     Game Draw
+[11:38:37] Debug     Game     Game Input
+[11:38:37] Debug     Game     Game Update
+[11:38:37] Debug     Game     Game Draw
+[11:38:37] Debug     Game     Game Input
+[11:38:37] Debug     Game     Game Update
+[11:38:37] Debug     Game     Game Draw
+[11:38:37] Debug     Game     Game Input
+[11:38:37] Debug     Game     Game Update
+[11:38:37] Debug     Game     Game Draw
+[11:38:37] Debug     Game     Game Input
+[11:38:37] Debug     Game     Game Update
+[11:38:37] Debug     Game     Game Draw
+[11:38:37] Debug     Game     Game Input
+[11:38:37] Debug     Game     Game Update
+[11:38:37] Debug     Game     Game Draw
+[11:38:37] Debug     Game     Game Input
+[11:38:37] Debug     Game     Game Update
+[11:38:37] Debug     Game     Game Draw
+[11:38:37] Debug     Game     Game Input
+[11:38:37] Debug     Game     Game Update
+[11:38:37] Debug     Game     Game Draw
+[11:38:37] Debug     Game     Game Input
+[11:38:37] Debug     Game     Game Update
+[11:38:37] Debug     Game     Game Draw
+[11:38:37] Debug     Game     Game Input
+[11:38:37] Debug     Game     Game Update
+[11:38:37] Debug     Game     Game Draw
+[11:38:37] Debug     Game     Game Input
+[11:38:37] Debug     Game     Game Update
+[11:38:37] Debug     Game     Game Draw
+[11:38:37] Debug     Game     Game Input
+[11:38:37] Debug     Game     Game Update
+[11:38:37] Debug     Game     Game Draw
+[11:38:37] Debug     Game     Game Input
+[11:38:37] Debug     Game     Game Update
+[11:38:37] Debug     Game     Game Draw
+[11:38:37] Debug     Game     Game Input
+[11:38:37] Debug     Game     Game Update
+[11:38:37] Debug     Game     Game Draw
+[11:38:37] Debug     Game     Game Input
+[11:38:37] Debug     Game     Game Update
+[11:38:37] Debug     Game     Game Draw
+[11:38:37] Debug     Game     Game Input
+[11:38:37] Debug     Game     Game Update
+[11:38:37] Debug     Game     Game Draw
+[11:38:37] Debug     Game     Game Input
+[11:38:37] Debug     Game     Game Update
+[11:38:37] Debug     Game     Game Draw
+[11:38:37] Debug     Game     Game Input
+[11:38:37] Debug     Game     Game Update
+[11:38:37] Debug     Game     Game Draw
+[11:38:37] Debug     Game     Game Input
+[11:38:37] Debug     Game     Game Update
+[11:38:37] Debug     Game     Game Draw
+[11:38:37] Debug     Game     Game Input
+[11:38:37] Debug     Game     Game Update
+[11:38:37] Debug     Game     Game Draw
+[11:38:37] Debug     Game     Game Input
+[11:38:37] Debug     Game     Game Update
+[11:38:37] Debug     Game     Game Draw
+[11:38:37] Debug     Game     Game Input
+[11:38:37] Debug     Game     Game Update
+[11:38:37] Debug     Game     Game Draw
+[11:38:37] Debug     Game     Game Input
+[11:38:37] Debug     Game     Game Update
+[11:38:37] Debug     Game     Game Draw
+[11:38:37] Debug     Game     Game Input
+[11:38:37] Debug     Game     Game Update
+[11:38:37] Debug     Game     Game Draw
+[11:38:37] Debug     Game     Game Input
+[11:38:37] Debug     Game     Game Update
+[11:38:37] Debug     Game     Game Draw
+[11:38:37] Debug     Game     Game Input
+[11:38:37] Debug     Game     Game Update
+[11:38:37] Debug     Game     Game Draw
+[11:38:37] Debug     Game     Game Input
+[11:38:37] Debug     Game     Game Update
+[11:38:37] Debug     Game     Game Draw
+[11:38:37] Debug     Game     Game Input
+[11:38:37] Debug     Game     Game Update
+[11:38:37] Debug     Game     Game Draw
+[11:38:37] Debug     Game     Game Input
+[11:38:37] Debug     Game     Game Update
+[11:38:37] Debug     Game     Game Draw
+[11:38:37] Debug     Game     Game Input
+[11:38:37] Debug     Game     Game Update
+[11:38:37] Debug     Game     Game Draw
+[11:38:37] Debug     Game     Game Input
+[11:38:37] Debug     Game     Game Update
+[11:38:37] Debug     Game     Game Draw
+[11:38:37] Debug     Game     Game Input
+[11:38:37] Debug     Game     Game Update
+[11:38:37] Debug     Game     Game Draw
+[11:38:37] Debug     Game     Game Input
+[11:38:37] Debug     Game     Game Update
+[11:38:37] Debug     Game     Game Draw
+[11:38:37] Debug     Game     Game Input
+[11:38:37] Debug     Game     Game Update
+[11:38:37] Debug     Game     Game Draw
+[11:38:37] Debug     Game     Game Input
+[11:38:37] Debug     Game     Game Update
+[11:38:37] Debug     Game     Game Draw
+[11:38:37] Debug     Game     Game Input
+[11:38:37] Debug     Game     Game Update
+[11:38:37] Debug     Game     Game Draw
+[11:38:37] Debug     Game     Game Input
+[11:38:37] Debug     Game     Game Update
+[11:38:37] Debug     Game     Game Draw
+[11:38:37] Debug     Game     Game Input
+[11:38:37] Debug     Game     Game Update
+[11:38:37] Debug     Game     Game Draw
+[11:38:37] Debug     Game     Game Input
+[11:38:37] Debug     Game     Game Update
+[11:38:37] Debug     Game     Game Draw
+[11:38:37] Debug     Game     Game Input
+[11:38:37] Debug     Game     Game Update
+[11:38:37] Debug     Game     Game Draw
+[11:38:37] Debug     Game     Game Input
+[11:38:37] Debug     Game     Game Update
+[11:38:37] Debug     Game     Game Draw
+[11:38:37] Debug     Game     Game Input
+[11:38:37] Debug     Game     Game Update
+[11:38:37] Debug     Game     Game Draw
+[11:38:37] Debug     Game     Game Input
+[11:38:37] Debug     Game     Game Update
+[11:38:37] Debug     Game     Game Draw
+[11:38:37] Debug     Game     Game Input
+[11:38:37] Debug     Game     Game Update
+[11:38:37] Debug     Game     Game Draw
+[11:38:37] Debug     Game     Game Input
+[11:38:37] Debug     Game     Game Update
+[11:38:37] Debug     Game     Game Draw
+[11:38:37] Debug     Game     Game Input
+[11:38:37] Debug     Game     Game Update
+[11:38:37] Debug     Game     Game Draw
+[11:38:37] Debug     Game     Game Input
+[11:38:37] Debug     Game     Game Update
+[11:38:37] Debug     Game     Game Draw
+[11:38:37] Debug     Game     Game Input
+[11:38:37] Debug     Game     Game Update
+[11:38:37] Debug     Game     Game Draw
+[11:38:37] Debug     Game     Game Input
+[11:38:37] Debug     Game     Game Update
+[11:38:37] Debug     Game     Game Draw
+[11:38:37] Debug     Game     Game Input
+[11:38:37] Debug     Game     Game Update
+[11:38:37] Debug     Game     Game Draw
+[11:38:37] Debug     Game     Game Input
+[11:38:37] Debug     Game     Game Update
+[11:38:37] Debug     Game     Game Draw
+[11:38:37] Debug     Game     Game Input
+[11:38:37] Debug     Game     Game Update
+[11:38:37] Debug     Game     Game Draw
+[11:38:38] Debug     Game     Game Input
+[11:38:38] Debug     Game     Game Update
+[11:38:38] Debug     Game     Game Draw
+[11:38:38] Debug     Game     Game Input
+[11:38:38] Debug     Game     Game Update
+[11:38:38] Debug     Game     Game Draw
+[11:38:38] Debug     Game     Game Input
+[11:38:38] Debug     Game     Game Update
+[11:38:38] Debug     Game     Game Draw
+[11:38:38] Debug     Game     Game Input
+[11:38:38] Debug     Game     Game Update
+[11:38:38] Debug     Game     Game Draw
+[11:38:38] Debug     Game     Game Input
+[11:38:38] Debug     Game     Game Update
+[11:38:38] Debug     Game     Game Draw
+[11:38:38] Debug     Game     Game Input
+[11:38:38] Debug     Game     Game Update
+[11:38:38] Debug     Game     Game Draw
+[11:38:38] Debug     Game     Game Input
+[11:38:38] Debug     Game     Game Update
+[11:38:38] Debug     Game     Game Draw
+[11:38:38] Debug     Game     Game Input
+[11:38:38] Debug     Game     Game Update
+[11:38:38] Debug     Game     Game Draw
+[11:38:38] Debug     Game     Game Input
+[11:38:38] Debug     Game     Game Update
+[11:38:38] Debug     Game     Game Draw
+[11:38:38] Debug     Game     Game Input
+[11:38:38] Debug     Game     Game Update
+[11:38:38] Debug     Game     Game Draw
+[11:38:38] Debug     Game     Game Input
+[11:38:38] Debug     Game     Game Update
+[11:38:38] Debug     Game     Game Draw
+[11:38:38] Debug     Game     Game Input
+[11:38:38] Debug     Game     Game Update
+[11:38:38] Debug     Game     Game Draw
+[11:38:38] Debug     Game     Game Input
+[11:38:38] Debug     Game     Game Update
+[11:38:38] Debug     Game     Game Draw
+[11:38:38] Debug     Game     Game Input
+[11:38:38] Debug     Game     Game Update
+[11:38:38] Debug     Game     Game Draw
+[11:38:38] Debug     Game     Game Input
+[11:38:38] Debug     Game     Game Update
+[11:38:38] Debug     Game     Game Draw
+[11:38:38] Debug     Game     Game Input
+[11:38:38] Debug     Game     Game Update
+[11:38:38] Debug     Game     Game Draw
+[11:38:38] Debug     Game     Game Input
+[11:38:38] Debug     Game     Game Update
+[11:38:38] Debug     Game     Game Draw
+[11:38:38] Debug     Game     Game Input
+[11:38:38] Debug     Game     Game Update
+[11:38:38] Debug     Game     Game Draw
+[11:38:38] Debug     Game     Game Input
+[11:38:38] Debug     Game     Game Update
+[11:38:38] Debug     Game     Game Draw
+[11:38:38] Debug     Game     Game Input
+[11:38:38] Debug     Game     Game Update
+[11:38:38] Debug     Game     Game Draw
+[11:38:38] Debug     Game     Game Input
+[11:38:38] Debug     Game     Game Update
+[11:38:38] Debug     Game     Game Draw
+[11:38:38] Debug     Game     Game Input
+[11:38:38] Debug     Game     Game Update
+[11:38:38] Debug     Game     Game Draw
+[11:38:38] Debug     Game     Game Input
+[11:38:38] Debug     Game     Game Update
+[11:38:38] Debug     Game     Game Draw
+[11:38:38] Debug     Game     Game Input
+[11:38:38] Debug     Game     Game Update
+[11:38:38] Debug     Game     Game Draw
+[11:38:38] Debug     Game     Game Input
+[11:38:38] Debug     Game     Game Update
+[11:38:38] Debug     Game     Game Draw
+[11:38:38] Debug     Game     Game Input
+[11:38:38] Debug     Game     Game Update
+[11:38:38] Debug     Game     Game Draw
+[11:38:38] Debug     Game     Game Input
+[11:38:38] Debug     Game     Game Update
+[11:38:38] Debug     Game     Game Draw
+[11:38:38] Debug     Game     Game Input
+[11:38:38] Debug     Game     Game Update
+[11:38:38] Debug     Game     Game Draw
+[11:38:38] Debug     Game     Game Input
+[11:38:38] Debug     Game     Game Update
+[11:38:38] Debug     Game     Game Draw
+[11:38:38] Debug     Game     Game Input
+[11:38:38] Debug     Game     Game Update
+[11:38:38] Debug     Game     Game Draw
+[11:38:38] Debug     Game     Game Input
+[11:38:38] Debug     Game     Game Update
+[11:38:38] Debug     Game     Game Draw
+[11:38:38] Debug     Game     Game Input
+[11:38:38] Debug     Game     Game Update
+[11:38:38] Debug     Game     Game Draw
+[11:38:38] Debug     Game     Game Input
+[11:38:38] Debug     Game     Game Update
+[11:38:38] Debug     Game     Game Draw
+[11:38:38] Debug     Game     Game Input
+[11:38:38] Debug     Game     Game Update
+[11:38:38] Debug     Game     Game Draw
+[11:38:38] Debug     Game     Game Input
+[11:38:38] Debug     Game     Game Update
+[11:38:38] Debug     Game     Game Draw
+[11:38:38] Debug     Game     Game Input
+[11:38:38] Debug     Game     Game Update
+[11:38:38] Debug     Game     Game Draw
+[11:38:38] Debug     Game     Game Input
+[11:38:38] Debug     Game     Game Update
+[11:38:38] Debug     Game     Game Draw
+[11:38:38] Debug     Game     Game Input
+[11:38:38] Debug     Game     Game Update
+[11:38:38] Debug     Game     Game Draw
+[11:38:38] Debug     Game     Game Input
+[11:38:38] Debug     Game     Game Update
+[11:38:38] Debug     Game     Game Draw
+[11:38:38] Debug     Game     Game Input
+[11:38:38] Debug     Game     Game Update
+[11:38:38] Debug     Game     Game Draw
+[11:38:38] Debug     Game     Game Input
+[11:38:38] Debug     Game     Game Update
+[11:38:38] Debug     Game     Game Draw
+[11:38:38] Debug     Game     Game Input
+[11:38:38] Debug     Game     Game Update
+[11:38:38] Debug     Game     Game Draw
+[11:38:38] Debug     Game     Game Input
+[11:38:38] Debug     Game     Game Update
+[11:38:38] Debug     Game     Game Draw
+[11:38:38] Debug     Game     Game Input
+[11:38:38] Debug     Game     Game Update
+[11:38:38] Debug     Game     Game Draw
+[11:38:38] Debug     Game     Game Input
+[11:38:38] Debug     Game     Game Update
+[11:38:38] Debug     Game     Game Draw
+[11:38:38] Debug     Game     Game Input
+[11:38:38] Debug     Game     Game Update
+[11:38:38] Debug     Game     Game Draw
+[11:38:38] Debug     Game     Game Input
+[11:38:38] Debug     Game     Game Update
+[11:38:38] Debug     Game     Game Draw
+[11:38:38] Debug     Game     Game Input
+[11:38:38] Debug     Game     Game Update
+[11:38:38] Debug     Game     Game Draw
+[11:38:38] Debug     Game     Game Input
+[11:38:38] Debug     Game     Game Update
+[11:38:38] Debug     Game     Game Draw
+[11:38:38] Debug     Game     Game Input
+[11:38:38] Debug     Game     Game Update
+[11:38:38] Debug     Game     Game Draw
+[11:38:38] Debug     Game     Game Input
+[11:38:38] Debug     Game     Game Update
+[11:38:38] Debug     Game     Game Draw
+[11:38:38] Debug     Game     Game Input
+[11:38:38] Debug     Game     Game Update
+[11:38:38] Debug     Game     Game Draw
+[11:38:38] Debug     Game     Game Input
+[11:38:38] Debug     Game     Game Update
+[11:38:38] Debug     Game     Game Draw
+[11:38:38] Debug     Game     Game Input
+[11:38:38] Debug     Game     Game Update
+[11:38:38] Debug     Game     Game Draw
+[11:38:38] Debug     Game     Game Input
+[11:38:38] Debug     Game     Game Update
+[11:38:38] Debug     Game     Game Draw
+[11:38:38] Debug     Game     Game Input
+[11:38:38] Debug     Game     Game Update
+[11:38:38] Debug     Game     Game Draw
+[11:38:38] Debug     Game     Game Input
+[11:38:38] Debug     Game     Game Update
+[11:38:38] Debug     Game     Game Draw
+[11:38:38] Debug     Game     Game Input
+[11:38:38] Debug     Game     Game Update
+[11:38:38] Debug     Game     Game Draw
+[11:38:38] Debug     Game     Game Input
+[11:38:38] Debug     Game     Game Update
+[11:38:38] Debug     Game     Game Draw
+[11:38:38] Debug     Game     Game Input
+[11:38:38] Debug     Game     Game Update
+[11:38:38] Debug     Game     Game Draw
+[11:38:39] Debug     Game     Game Input
+[11:38:39] Debug     Game     Game Update
+[11:38:39] Debug     Game     Game Draw
+[11:38:39] Debug     Game     Game Input
+[11:38:39] Debug     Game     Game Update
+[11:38:39] Debug     Game     Game Draw
+[11:38:39] Debug     Game     Game Input
+[11:38:39] Debug     Game     Game Update
+[11:38:39] Debug     Game     Game Draw
+[11:38:39] Debug     Game     Game Input
+[11:38:39] Debug     Game     Game Update
+[11:38:39] Debug     Game     Game Draw
+[11:38:39] Debug     Game     Game Input
+[11:38:39] Debug     Game     Game Update
+[11:38:39] Debug     Game     Game Draw
+[11:38:39] Debug     Game     Game Input
+[11:38:39] Debug     Game     Game Update
+[11:38:39] Debug     Game     Game Draw
+[11:38:39] Debug     Game     Game Input
+[11:38:39] Debug     Game     Game Update
+[11:38:39] Debug     Game     Game Draw
+[11:38:39] Debug     Game     Game Input
+[11:38:39] Debug     Game     Game Update
+[11:38:39] Debug     Game     Game Draw
+[11:38:39] Debug     Game     Game Input
+[11:38:39] Debug     Game     Game Update
+[11:38:39] Debug     Game     Game Draw
+[11:38:39] Debug     Game     Game Input
+[11:38:39] Debug     Game     Game Update
+[11:38:39] Debug     Game     Game Draw
+[11:38:39] Debug     Game     Game Input
+[11:38:39] Debug     Game     Game Update
+[11:38:39] Debug     Game     Game Draw
+[11:38:39] Debug     Game     Game Input
+[11:38:39] Debug     Game     Game Update
+[11:38:39] Debug     Game     Game Draw
+[11:38:39] Debug     Game     Game Input
+[11:38:39] Debug     Game     Game Update
+[11:38:39] Debug     Game     Game Draw
+[11:38:39] Debug     Game     Game Input
+[11:38:39] Debug     Game     Game Update
+[11:38:39] Debug     Game     Game Draw
+[11:38:39] Debug     Game     Game Input
+[11:38:39] Debug     Game     Game Update
+[11:38:39] Debug     Game     Game Draw
+[11:38:39] Debug     Game     Game Input
+[11:38:39] Debug     Game     Game Update
+[11:38:39] Debug     Game     Game Draw
+[11:38:39] Debug     Game     Game Input
+[11:38:39] Debug     Game     Game Update
+[11:38:39] Debug     Game     Game Draw
+[11:38:39] Debug     Game     Game Input
+[11:38:39] Debug     Game     Game Update
+[11:38:39] Debug     Game     Game Draw
+[11:38:39] Debug     Game     Game Input
+[11:38:39] Debug     Game     Game Update
+[11:38:39] Debug     Game     Game Draw
+[11:38:39] Debug     Game     Game Input
+[11:38:39] Debug     Game     Game Update
+[11:38:39] Debug     Game     Game Draw
+[11:38:39] Debug     Game     Game Input
+[11:38:39] Debug     Game     Game Update
+[11:38:39] Debug     Game     Game Draw
+[11:38:39] Debug     Game     Game Input
+[11:38:39] Debug     Game     Game Update
+[11:38:39] Debug     Game     Game Draw
+[11:38:39] Debug     Game     Game Input
+[11:38:39] Debug     Game     Game Update
+[11:38:39] Debug     Game     Game Draw
+[11:38:39] Debug     Game     Game Input
+[11:38:39] Debug     Game     Game Update
+[11:38:39] Debug     Game     Game Draw
+[11:38:39] Debug     Game     Game Input
+[11:38:39] Debug     Game     Game Update
+[11:38:39] Debug     Game     Game Draw
+[11:38:39] Debug     Game     Game Input
+[11:38:39] Debug     Game     Game Update
+[11:38:39] Debug     Game     Game Draw
+[11:38:39] Debug     Game     Game Input
+[11:38:39] Debug     Game     Game Update
+[11:38:39] Debug     Game     Game Draw
+[11:38:39] Debug     Game     Game Input
+[11:38:39] Debug     Game     Game Update
+[11:38:39] Debug     Game     Game Draw
+[11:38:39] Debug     Game     Game Input
+[11:38:39] Debug     Game     Game Update
+[11:38:39] Debug     Game     Game Draw
+[11:38:39] Debug     Game     Game Input
+[11:38:39] Debug     Game     Game Update
+[11:38:39] Debug     Game     Game Draw
+[11:38:39] Debug     Game     Game Input
+[11:38:39] Debug     Game     Game Update
+[11:38:39] Debug     Game     Game Draw
+[11:38:39] Debug     Game     Game Input
+[11:38:39] Debug     Game     Game Update
+[11:38:39] Debug     Game     Game Draw
+[11:38:39] Debug     Game     Game Input
+[11:38:39] Debug     Game     Game Update
+[11:38:39] Debug     Game     Game Draw
+[11:38:39] Debug     Game     Game Input
+[11:38:39] Debug     Game     Game Update
+[11:38:39] Debug     Game     Game Draw
+[11:38:39] Debug     Game     Game Input
+[11:38:39] Debug     Game     Game Update
+[11:38:39] Debug     Game     Game Draw
+[11:38:39] Debug     Game     Game Input
+[11:38:39] Debug     Game     Game Update
+[11:38:39] Debug     Game     Game Draw
+[11:38:39] Debug     Game     Game Input
+[11:38:39] Debug     Game     Game Update
+[11:38:39] Debug     Game     Game Draw
+[11:38:39] Debug     Game     Game Input
+[11:38:39] Debug     Game     Game Update
+[11:38:39] Debug     Game     Game Draw
+[11:38:39] Debug     Game     Game Input
+[11:38:39] Debug     Game     Game Update
+[11:38:39] Debug     Game     Game Draw
+[11:38:39] Debug     Game     Game Input
+[11:38:39] Debug     Game     Game Update
+[11:38:39] Debug     Game     Game Draw
+[11:38:39] Debug     Game     Game Input
+[11:38:39] Debug     Game     Game Update
+[11:38:39] Debug     Game     Game Draw
+[11:38:39] Debug     Game     Game Input
+[11:38:39] Debug     Game     Game Update
+[11:38:39] Debug     Game     Game Draw
+[11:38:39] Debug     Game     Game Input
+[11:38:39] Debug     Game     Game Update
+[11:38:39] Debug     Game     Game Draw
+[11:38:39] Debug     Game     Game Input
+[11:38:39] Debug     Game     Game Update
+[11:38:39] Debug     Game     Game Draw
+[11:38:39] Debug     Game     Game Input
+[11:38:39] Debug     Game     Game Update
+[11:38:39] Debug     Game     Game Draw
+[11:38:39] Debug     Game     Game Input
+[11:38:39] Debug     Game     Game Update
+[11:38:39] Debug     Game     Game Draw
+[11:38:39] Debug     Game     Game Input
+[11:38:39] Debug     Game     Game Update
+[11:38:39] Debug     Game     Game Draw
+[11:38:39] Debug     Game     Game Input
+[11:38:39] Debug     Game     Game Update
+[11:38:39] Debug     Game     Game Draw
+[11:38:39] Debug     Game     Game Input
+[11:38:39] Debug     Game     Game Update
+[11:38:39] Debug     Game     Game Draw
+[11:38:39] Debug     Game     Game Input
+[11:38:39] Debug     Game     Game Update
+[11:38:39] Debug     Game     Game Draw
+[11:38:39] Debug     Game     Game Input
+[11:38:39] Debug     Game     Game Update
+[11:38:39] Debug     Game     Game Draw
+[11:38:39] Debug     Game     Game Input
+[11:38:39] Debug     Game     Game Update
+[11:38:39] Debug     Game     Game Draw
+[11:38:39] Debug     Game     Game Input
+[11:38:39] Debug     Game     Game Update
+[11:38:39] Debug     Game     Game Draw
+[11:38:39] Debug     Game     Game Input
+[11:38:39] Debug     Game     Game Update
+[11:38:39] Debug     Game     Game Draw
+[11:38:39] Debug     Game     Game Input
+[11:38:39] Debug     Game     Game Update
+[11:38:39] Debug     Game     Game Draw
+[11:38:39] Debug     Game     Game Input
+[11:38:39] Debug     Game     Game Update
+[11:38:39] Debug     Game     Game Draw
+[11:38:39] Debug     Game     Game Input
+[11:38:39] Debug     Game     Game Update
+[11:38:39] Debug     Game     Game Draw
+[11:38:39] Debug     Game     Game Input
+[11:38:39] Debug     Game     Game Update
+[11:38:39] Debug     Game     Game Draw
+[11:38:39] Debug     Game     Game Input
+[11:38:39] Debug     Game     Game Update
+[11:38:39] Debug     Game     Game Draw
+[11:38:39] Debug     Game     Game Input
+[11:38:39] Debug     Game     Game Update
+[11:38:39] Debug     Game     Game Draw
+[11:38:40] Debug     Game     Game Input
+[11:38:40] Debug     Game     Game Update
+[11:38:40] Debug     Game     Game Draw
+[11:38:40] Debug     Game     Game Input
+[11:38:40] Debug     Game     Game Update
+[11:38:40] Debug     Game     Game Draw
+[11:38:40] Debug     Game     Game Input
+[11:38:40] Debug     Game     Game Update
+[11:38:40] Debug     Game     Game Draw
+[11:38:40] Debug     Game     Game Input
+[11:38:40] Debug     Game     Game Update
+[11:38:40] Debug     Game     Game Draw
+[11:38:40] Debug     Game     Game Input
+[11:38:40] Debug     Game     Game Update
+[11:38:40] Debug     Game     Game Draw
+[11:38:40] Debug     Game     Game Input
+[11:38:40] Debug     Game     Game Update
+[11:38:40] Debug     Game     Game Draw
+[11:38:40] Debug     Game     Game Input
+[11:38:40] Debug     Game     Game Update
+[11:38:40] Debug     Game     Game Draw
+[11:38:40] Debug     Game     Game Input
+[11:38:40] Debug     Game     Game Update
+[11:38:40] Debug     Game     Game Draw
+[11:38:40] Debug     Game     Game Input
+[11:38:40] Debug     Game     Game Update
+[11:38:40] Debug     Game     Game Draw
+[11:38:40] Debug     Game     Game Input
+[11:38:40] Debug     Game     Game Update
+[11:38:40] Debug     Game     Game Draw
+[11:38:40] Debug     Game     Game Input
+[11:38:40] Debug     Game     Game Update
+[11:38:40] Debug     Game     Game Draw
+[11:38:40] Debug     Game     Game Input
+[11:38:40] Debug     Game     Game Update
+[11:38:40] Debug     Game     Game Draw
+[11:38:40] Debug     Game     Game Input
+[11:38:40] Debug     Game     Game Update
+[11:38:40] Debug     Game     Game Draw
+[11:38:40] Debug     Game     Game Input
+[11:38:40] Debug     Game     Game Update
+[11:38:40] Debug     Game     Game Draw
+[11:38:40] Debug     Game     Game Input
+[11:38:40] Debug     Game     Game Update
+[11:38:40] Debug     Game     Game Draw
+[11:38:40] Debug     Game     Game Input
+[11:38:40] Debug     Game     Game Update
+[11:38:40] Debug     Game     Game Draw
+[11:38:40] Debug     Game     Game Input
+[11:38:40] Debug     Game     Game Update
+[11:38:40] Debug     Game     Game Draw
+[11:38:40] Debug     Game     Game Input
+[11:38:40] Debug     Game     Game Update
+[11:38:40] Debug     Game     Game Draw
+[11:38:40] Debug     Game     Game Input
+[11:38:40] Debug     Game     Game Update
+[11:38:40] Debug     Game     Game Draw
+[11:38:40] Debug     Game     Game Input
+[11:38:40] Debug     Game     Game Update
+[11:38:40] Debug     Game     Game Draw
+[11:38:40] Debug     Game     Game Input
+[11:38:40] Debug     Game     Game Update
+[11:38:40] Debug     Game     Game Draw
+[11:38:40] Debug     Game     Game Input
+[11:38:40] Debug     Game     Game Update
+[11:38:40] Debug     Game     Game Draw
+[11:38:40] Debug     Game     Game Input
+[11:38:40] Debug     Game     Game Update
+[11:38:40] Debug     Game     Game Draw
+[11:38:40] Debug     Game     Game Input
+[11:38:40] Debug     Game     Game Update
+[11:38:40] Debug     Game     Game Draw
+[11:38:40] Debug     Game     Game Input
+[11:38:40] Debug     Game     Game Update
+[11:38:40] Debug     Game     Game Draw
+[11:38:40] Debug     Game     Game Input
+[11:38:40] Debug     Game     Game Update
+[11:38:40] Debug     Game     Game Draw
+[11:38:40] Debug     Game     Game Input
+[11:38:40] Debug     Game     Game Update
+[11:38:40] Debug     Game     Game Draw
+[11:38:40] Debug     Game     Game Input
+[11:38:40] Debug     Game     Game Update
+[11:38:40] Debug     Game     Game Draw
+[11:38:40] Debug     Game     Game Input
+[11:38:40] Debug     Game     Game Update
+[11:38:40] Debug     Game     Game Draw
+[11:38:40] Debug     Game     Game Input
+[11:38:40] Debug     Game     Game Update
+[11:38:40] Debug     Game     Game Draw
+[11:38:40] Debug     Game     Game Input
+[11:38:40] Debug     Game     Game Update
+[11:38:40] Debug     Game     Game Draw
+[11:38:40] Debug     Game     Game Input
+[11:38:40] Debug     Game     Game Update

@@ -4,6 +4,7 @@
 #include "Image.h"
 #include "GameState.h"
 #include "ListaT.h"
+#include "Bitacora.h"
 
 class GameState;
 
@@ -11,8 +12,8 @@ class Platform
 {
 private:
 	SDL_Window* window;
-
 public:
+	Bitacora log;
 	int width;
 	int height;
 	float lastmouseX;

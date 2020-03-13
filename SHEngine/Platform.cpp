@@ -13,25 +13,35 @@ Platform::Platform(std::string name){
 	int x = std::stoi(ini.GetValue("RESOLUTION", "width", ""));
 	int y = std::stoi(ini.GetValue("RESOLUTION", "height", ""));
 
+	std::string language = ini.GetValue("LANGUAGE", "language", "");
+
+	if (language == "eng") {
+
+	}
+	else {
+
+	}
+	
+
 	width = x;
 	height = y;
 
 	if (SDL_Init(SDL_INIT_VIDEO) != 0){
-		std::cout << "SDL_Init";
+		log.Debug("Platform", "SDL_Init");
 		return;
 	}
 
 	window = SDL_CreateWindow(name.c_str(), SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, width, height, SDL_WINDOW_SHOWN);
 	//window = SDL_CreateWindow(name.c_str(), SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, width, height, SDL_WINDOW_FULLSCREEN);
 	if (window == nullptr){
-		std::cout << "CreateWindow";
+		log.Debug("Platform" ,"Create Window");
 		SDL_Quit();
 		return;
 	}
 
 	renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED | SDL_RENDERER_PRESENTVSYNC);
 	if (renderer == nullptr){
-		std::cout << "CreateRenderer";
+		log.Debug("Platform" ,"Create Rederer");
 		SDL_Quit();
 		return;
 	}

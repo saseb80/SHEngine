@@ -40,13 +40,12 @@ void Game::Init(Platform* platform, GameStateManager* manager)
 {
 	this->platform = platform;
 	this->manager = manager;
-	std::cout << " Game Init" << std::endl;
-	log.ImprimirConsola("Game Init");
+	log.Debug("Game" ,"Game Init");
 }
 
 void Game::Draw()
 {
-	log.ImprimirConsola("Game Draw");
+	log.Debug("Game","Game Draw");
 	platform->RenderClear();
 	platform->RenderPresent();
 }
@@ -73,13 +72,13 @@ bool Game::Input(ListaT<int>* keyDowns, ListaT<int>* keyUps, bool* leftclick, fl
 		}
 	}
 
-	log.ImprimirConsola("Game Input");
+	log.Debug("Game", "Game Input");
 	return false;
 }
 
 void Game::Update()
 {
-	log.ImprimirConsola("Game Input");
+	log.Debug("Game", "Game Update");
 }
 
 void Game::Close()

@@ -12,10 +12,10 @@ int main(int argc, char* argv[]) {
 
 	Bitacora l;
 	l.ImprimirConsola("WASSUP");
-	l.Mensaje(Info, "Main", "Informacion");
-	l.Mensaje(Debug,"Main","Debug");
-	l.Mensaje(Warning, "Main", "Advertencia");
-	l.Mensaje(Error, "Main", "Errores");
+	l.Info("Main", "Informacion");
+	l.Debug("Main","Debug");
+	l.Warning("Main", "Advertencia");
+	l.Error("Main", "Errores");
 	GameStateManager* manager = new GameStateManager();
 	manager->SetState(new Game());
 	manager->GameLoop();

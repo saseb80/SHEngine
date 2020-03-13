@@ -11,31 +11,43 @@ void Bitacora::PruebaColor() {
 	}
 }
 
-void Bitacora::Mensaje(LogType tipo, std::string procedencia, std::string mensaje) {
-	if (tipo == 0) {
-		nowLocal = *localtime(&now);
-		SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 15);
-		std::cout << "[" << nowLocal.tm_hour << ":" << nowLocal.tm_min << ":" << nowLocal.tm_sec << "]" << " "<<"Info" <<"      "<< procedencia <<"     "<<mensaje <<std::endl;
-		myfile << "[" << nowLocal.tm_hour << ":" << nowLocal.tm_min << ":" << nowLocal.tm_sec << "]" << " "<< "Info" <<"      "<< procedencia <<"     "<<mensaje <<std::endl;
-	}
-	if (tipo == 1) {
-		nowLocal = *localtime(&now);
-		SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 9);
-		std::cout << "[" << nowLocal.tm_hour << ":" << nowLocal.tm_min << ":" << nowLocal.tm_sec << "]" << " " << "Debug" << "     " << procedencia << "     " << mensaje << std::endl;
-		myfile << "[" << nowLocal.tm_hour << ":" << nowLocal.tm_min << ":" << nowLocal.tm_sec << "]" << " " << "Debug" << "     " << procedencia << "     " << mensaje << std::endl;
-	}
-	if (tipo == 2) {
-		nowLocal = *localtime(&now);
-		SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 6);
-		std::cout << "[" << nowLocal.tm_hour << ":" << nowLocal.tm_min << ":" << nowLocal.tm_sec << "]" << " " << "Warning" << "   " << procedencia << "     " << mensaje << std::endl;
-		myfile << "[" << nowLocal.tm_hour << ":" << nowLocal.tm_min << ":" << nowLocal.tm_sec << "]" << " " << "Warning" << "   " << procedencia << "     " << mensaje << std::endl;
-	}
-	if (tipo == 3) {
-		nowLocal = *localtime(&now);
-		SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 4);
-		std::cout << "[" << nowLocal.tm_hour << ":" << nowLocal.tm_min << ":" << nowLocal.tm_sec << "]" << " " << "Error" << "     " << procedencia << "     " << mensaje << std::endl;
-		myfile << "[" << nowLocal.tm_hour << ":" << nowLocal.tm_min << ":" << nowLocal.tm_sec << "]" << " " << "Error" << "     " << procedencia << "     " << mensaje << std::endl;
-	}
+void Bitacora::Info(std::string procedencia, std::string mnsj) {
+	time_t now = time(NULL);
+	struct tm nowLocal;
+	nowLocal = *localtime(&now);
+	nowLocal = *localtime(&now);
+	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 15);
+	std::cout << "[" << nowLocal.tm_hour << ":" << nowLocal.tm_min << ":" << nowLocal.tm_sec << "]" << " " << "Info" << "      " << procedencia << "     " << mnsj << std::endl;
+	myfile << "[" << nowLocal.tm_hour << ":" << nowLocal.tm_min << ":" << nowLocal.tm_sec << "]" << " " << "Info" << "      " << procedencia << "     " << mnsj << std::endl;
+
+}
+
+void Bitacora::Debug(std::string procedencia, std::string mnsj) {
+	time_t now = time(NULL);
+	struct tm nowLocal;
+	nowLocal = *localtime(&now);
+	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 9);
+	std::cout << "[" << nowLocal.tm_hour << ":" << nowLocal.tm_min << ":" << nowLocal.tm_sec << "]" << " " << "Debug" << "     " << procedencia << "     " << mnsj << std::endl;
+	myfile << "[" << nowLocal.tm_hour << ":" << nowLocal.tm_min << ":" << nowLocal.tm_sec << "]" << " " << "Debug" << "     " << procedencia << "     " << mnsj << std::endl;
+}
+
+void Bitacora::Warning(std::string procedencia, std::string mnsj) {
+	time_t now = time(NULL);
+	struct tm nowLocal;
+	nowLocal = *localtime(&now);
+	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 6);
+	std::cout << "[" << nowLocal.tm_hour << ":" << nowLocal.tm_min << ":" << nowLocal.tm_sec << "]" << " " << "Warning" << "   " << procedencia << "     " << mnsj << std::endl;
+	myfile << "[" << nowLocal.tm_hour << ":" << nowLocal.tm_min << ":" << nowLocal.tm_sec << "]" << " " << "Warning" << "   " << procedencia << "     " << mnsj << std::endl;
+}
+
+void Bitacora::Error(std::string procedencia, std::string mnsj) {
+	time_t now = time(NULL);
+	struct tm nowLocal;
+	nowLocal = *localtime(&now);
+	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 4);
+	std::cout << "[" << nowLocal.tm_hour << ":" << nowLocal.tm_min << ":" << nowLocal.tm_sec << "]" << " " << "Error" << "     " << procedencia << "     " << mnsj << std::endl;
+	myfile << "[" << nowLocal.tm_hour << ":" << nowLocal.tm_min << ":" << nowLocal.tm_sec << "]" << " " << "Error" << "     " << procedencia << "     " << mnsj << std::endl;
+
 }
 
 Bitacora::~Bitacora() {

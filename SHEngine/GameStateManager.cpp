@@ -17,6 +17,7 @@ void GameStateManager::GameLoop()
 		try
 		{
 			if (states.size() == 0)
+				log.Error("GSManager", "oeiwoei");
 				throw std::exception("Error");
 			auto state = states.top()->value;
 			platform->CheckEvent(state, &GameState::Input);
@@ -26,7 +27,7 @@ void GameStateManager::GameLoop()
 		}
 		catch (...)
 		{
-			std::cout << "Critical error Tank is closing";
+			log.Error("GSManager", "Error critico, se cerrara el programa");
 			break;
 		}
 	}

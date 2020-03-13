@@ -5,12 +5,12 @@
 class Image
 {
 private:
-	SDL_Texture* image;
-	std::string name;
-	int w;
-	int h;
+	SDL_Texture* _image;
+	std::string _name;
+	int _w;
+	int _h;
 public:
-	void LoadImage(std::string name);
+	void LoadImagen(std::string name);
 	SDL_Texture* GetTexture();
 	int GetWidth();
 	int GetHeight();
