@@ -1,16 +1,18 @@
 #pragma once
 #include <string>
 #include "SDL.h"
-#include "Image.h"
+#include "Sprite.h"
 #include "GameState.h"
 #include "ListaT.h"
 #include "Bitacora.h"
+#include "StackAllocator.h"
 
 class GameState;
 
 class Platform{
 private:
 	SDL_Window* window;
+	StackAllocator* SA;
 public:
 
 	Bitacora log;

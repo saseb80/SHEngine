@@ -1,18 +1,15 @@
 #include "StackAllocator.h"
 
 StackAllocator::StackAllocator(size_t size) {
-	//printf("%i,%i \n", sizeof(void*), sizeof(size_t));
+
 	static_assert(sizeof(size_t) >= sizeof(void*), "the size of uint must be greater than or equal to the size of a pointer");
 	maxSize = size;
 	start = malloc(size);
 	if (start == NULL) {
-		printf("Error al asignar memoria");
+		log.Error("StackAll", "Error al asignar memoria");
 	}
-
 	marker = (size_t)start;
 	prev = marker;
-	//printf("dir: %p\n", start);
-	//printf("marker %#x\n", marker);
 }
 
 void* StackAllocator::alloc(size_t size) {
@@ -31,6 +28,9 @@ void* StackAllocator::alloc(size_t size) {
 
 StackAllocator::Marker StackAllocator::getMarker() {
 	return marker;
+}
+
+void StackAllocator::freeToMarker(Marker marker) {
 }
 
 void StackAllocator::clear() {

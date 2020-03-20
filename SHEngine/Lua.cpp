@@ -52,7 +52,7 @@ void Lua::Test(string fileName) {
 	try {
 		lua_state = luaL_newstate();
 		luaL_openlibs(lua_state);
-		if (CheckLua(lua_state, luaL_dofile(lua_state, fileName.c_str()))) { //Checa si este file existe dentro de lua
+		if (CheckLua(lua_state, luaL_dofile(lua_state, fileName.c_str()))) {
 
 
 			auto lua_CreateObject = [](lua_State* lua) -> int {

@@ -37,6 +37,7 @@ void Game::Init(Platform* platform, GameStateManager* manager){
 	this->manager = manager;
 
 	sqre = new Cuadrado(100,100,20,20);
+	stackA = new StackAllocator(1024 * 1024 * 1024);
 
 	log.Debug("Game" ,"Game Init");
 }

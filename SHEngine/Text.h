@@ -4,8 +4,10 @@
 #include "SDL.h"
 #include <string>
 #include "Platform.h"
+#include "GameObject.h"
+#include "Bitacora.h"
 
-class Text
+class Text : public GameObject
 {
 public:
 	Text(const std::string& font_path, int font_size, std::string message_text, const SDL_Color& color);
@@ -14,6 +16,7 @@ public:
 
 	static SDL_Texture* LoadFont(const std::string& font_path, int font_size, std::string message_text, const SDL_Color& color);
 	void Update(std::string message_text);
+	static Bitacora logger;
 	~Text();
 
 private:

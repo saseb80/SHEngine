@@ -1,4 +1,5 @@
 ﻿  Game.cpp
   SHEngine.cpp
+  Text.cpp
   Generating Code...
-  SHEngine.vcxproj -> C:\Tareas\Septimo\SHEngine\Debug\SHEngine.exe
+C:\Tareas\Septimo\SHEngine\SHEngine\Text.cpp(50,15): error C2228: left of '.Error' must have class/struct/union

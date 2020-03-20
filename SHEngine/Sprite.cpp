@@ -1,4 +1,4 @@
-#include "Image.h"
+#include "Sprite.h"
 #include "SDL_image.h"
 #include "Platform.h"
 

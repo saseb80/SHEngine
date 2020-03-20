@@ -1,8 +1,8 @@
 #pragma once
 #include "ListaT.h"
-#include "Image.h"
+#include "Sprite.h"
 
-class Gif
+class Gif : public GameObject
 {
 public:
 	Gif();

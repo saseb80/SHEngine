@@ -14,6 +14,11 @@ Platform::Platform(std::string name){
 	int x = std::stoi(ini.GetValue("RESOLUTION", "width", ""));
 	int y = std::stoi(ini.GetValue("RESOLUTION", "height", ""));
 
+	int memoria = std::stoi(ini.GetValue("MEMORY", "mem", ""));
+
+	SA = new StackAllocator(1024 * 1024 * memoria);
+	log.Debug("Memory", "1024 de memoria");
+
 	width = x;
 	height = y;
 

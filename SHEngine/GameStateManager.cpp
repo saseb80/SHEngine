@@ -16,7 +16,7 @@ void GameStateManager::GameLoop(){
 				if(log.esp == false)
 					log.Error("GSManager", "Done");
 				else
-					log.Error("GSManager", "Baboso");
+					log.Error("GSManager", "error");
 				throw std::exception("Error");
 			}
 			auto state = states.top()->value;

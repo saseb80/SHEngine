@@ -6,6 +6,7 @@
 #include <iostream>
 #include <fstream>
 #include "SimpleIni.h"
+#include "String.h"
 
 enum LogType{
 	Info,

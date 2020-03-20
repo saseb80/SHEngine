@@ -7,11 +7,12 @@
 #include <time.h>
 #include "SimpleIni.h"
 #include "Bitacora.h"
+#include "StackAllocator.h"
 
 int main(int argc, char* argv[]) {
 	
 	Bitacora l;
-	l.ImprimirConsola("WASSUP");
+	l.ImprimirConsola("SHENGINE");
 	GameStateManager* manager = new GameStateManager();
 	manager->SetState(new Game());
 	manager->GameLoop();

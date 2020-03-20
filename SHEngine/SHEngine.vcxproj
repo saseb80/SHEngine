@@ -159,15 +159,17 @@
     <ClCompile Include="GameState.cpp" />
     <ClCompile Include="GameStateManager.cpp" />
     <ClCompile Include="Gif.cpp" />
-    <ClCompile Include="Image.cpp" />
+    <ClCompile Include="Sprite.cpp" />
     <ClCompile Include="ListaT.cpp" />
     <ClCompile Include="Bitacora.cpp" />
     <ClCompile Include="Lua.cpp" />
+    <ClCompile Include="MyString.cpp" />
     <ClCompile Include="NodoT.cpp" />
     <ClCompile Include="Platform.cpp" />
     <ClCompile Include="SHEngine.cpp" />
     <ClCompile Include="StackAllocator.cpp" />
     <ClCompile Include="StackT.cpp" />
+    <ClCompile Include="String.cpp" />
     <ClCompile Include="Text.cpp" />
     <ClCompile Include="Vector2.cpp" />
   </ItemGroup>
@@ -178,15 +180,17 @@
     <ClInclude Include="GameState.h" />
     <ClInclude Include="GameStateManager.h" />
     <ClInclude Include="Gif.h" />
-    <ClInclude Include="Image.h" />
+    <ClInclude Include="Sprite.h" />
     <ClInclude Include="ListaT.h" />
     <ClInclude Include="Bitacora.h" />
     <ClInclude Include="Lua.h" />
+    <ClInclude Include="MyString.h" />
     <ClInclude Include="NodoT.h" />
     <ClInclude Include="Platform.h" />
     <ClInclude Include="SimpleIni.h" />
     <ClInclude Include="StackAllocator.h" />
     <ClInclude Include="StackT.h" />
+    <ClInclude Include="String.h" />
     <ClInclude Include="Text.h" />
     <ClInclude Include="Vector2.h" />
   </ItemGroup>

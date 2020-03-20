@@ -1,0 +1,1 @@
+Arrastrar a la carpeta de DEBUG

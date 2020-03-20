@@ -2,6 +2,7 @@
 #define LUA_H
 #include <iostream>
 #include <string>
+#include "Bitacora.h"
 using namespace std;
 
 extern "C" {
@@ -19,6 +20,7 @@ extern "C" {
 class Lua
 {
 public:
+	Bitacora log;
 	static Lua* GetPTR();
 	lua_State* GetState();
 	void SetState(lua_State*);

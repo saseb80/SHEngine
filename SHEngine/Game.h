@@ -3,6 +3,7 @@
 #include "Text.h"
 #include "Bitacora.h"
 #include "Cuadrado.h"
+#include "StackAllocator.h"
 
 class Game : public GameState
 {
@@ -11,6 +12,7 @@ private:
 	GameStateManager* manager;
 	Bitacora log;
 	Cuadrado* sqre;
+	StackAllocator* stackA;
 
 public:
 	Game();
