@@ -8,12 +8,21 @@ Bitacora::Bitacora() {
 	std::string verbosity = ini.GetValue("VERBOSITY", "verbosity", "");
 
 	myfile.open(ruta);
-	if (verbosity == "low")
-	level = 1;
-	else if (verbosity == "mid")
-	level = 2;
-	else if (verbosity == "high")
-	level = 3;
+	try {
+
+		if (verbosity == "low")
+			level = 1;
+		else if (verbosity == "mid")
+			level = 2;
+		else if (verbosity == "high")
+			level = 3;
+		else if (verbosity != "low" && verbosity != "mid" && verbosity != "high") {
+			throw std::exception("Error");
+		}	
+	}
+	catch (...) {
+		std::cout << "El nivel de verbosidad no esta definido"<<std::endl;
+	}
 
 	if (language == "eng")
 		esp = false;
@@ -45,7 +54,6 @@ void Bitacora::Info(std::string procedencia, std::string mnsj) {
 		std::cout << "[" <<nowLocal.tm_mday<<"/"<< nowLocal.tm_hour << ":" << nowLocal.tm_min << ":" << nowLocal.tm_sec << "]" << " " << "Info" << "      " << procedencia << "     " << mnsj << std::endl;
 		myfile << "[" << nowLocal.tm_mday <<"/"<<nowLocal.tm_hour << ":" << nowLocal.tm_min << ":" << nowLocal.tm_sec << "]" << " " << "Info" << "      " << procedencia << "     " << mnsj << std::endl;
 	}
-
 }
 
 void Bitacora::Debug(std::string procedencia, std::string mnsj) {
