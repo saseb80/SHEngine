@@ -38,7 +38,7 @@ void Gif::SetVelocity(int vel){
 }
 
 void Gif::AddImage(std::string i){
-	image = new Image();
+	image = new Sprite();
 	image->LoadImagen(i);
 	ImageList.push_back(*image);
 }

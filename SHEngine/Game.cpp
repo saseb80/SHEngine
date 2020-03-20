@@ -36,6 +36,8 @@ void Game::Init(Platform* platform, GameStateManager* manager){
 	this->platform = platform;
 	this->manager = manager;
 
+	sqre = new Cuadrado(100,100,20,20);
+
 	log.Debug("Game" ,"Game Init");
 }
 
@@ -43,6 +45,7 @@ void Game::Draw(){
 
 	log.Debug("Game", "Game Draw");
 	platform->RenderClear();
+	sqre->Draw();
 	platform->RenderPresent();
 }
 

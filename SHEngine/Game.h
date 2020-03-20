@@ -2,6 +2,7 @@
 #include "GameState.h"
 #include "Text.h"
 #include "Bitacora.h"
+#include "Cuadrado.h"
 
 class Game : public GameState
 {
@@ -9,6 +10,8 @@ private:
 	Platform* platform;
 	GameStateManager* manager;
 	Bitacora log;
+	Cuadrado* sqre;
+
 public:
 	Game();
 	~Game();

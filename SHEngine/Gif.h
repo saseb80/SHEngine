@@ -10,11 +10,11 @@ public:
 	~Gif();
 	void update();
 	void SetVelocity(int vel);
-	Image currentFrame;
+	Sprite currentFrame;
 	void AddImage(std::string i);
 private:
-	Image* image;
-	ListaT<Image> ImageList;
+	Sprite* image;
+	ListaT<Sprite> ImageList;
 	int index = 0;
 	Uint32 _lastFrameTime = SDL_GetTicks() + _vel;;
 	int _vel;

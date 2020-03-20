@@ -22,7 +22,7 @@ public:
 	Platform(std::string name);
 	~Platform();
 	void RenderClear();
-	void RenderImage(Image* image, int x, int y, float angle);
+	void RenderImage(Sprite* image, int x, int y, float angle);
 	void RenderPresent();
 
 	//std::vector <SDL_Event>& GetFrameEvents();
@@ -31,6 +31,6 @@ public:
 
 	void DrawRect(int x, int y, int w, int h);
 private:
-	void RenderTexture(Image* image, int x, int y, double a);
+	void RenderTexture(Sprite* image, int x, int y, double a);
 
 };

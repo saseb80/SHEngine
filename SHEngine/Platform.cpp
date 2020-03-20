@@ -60,12 +60,12 @@ void Platform::DrawRect(int x, int y, int w, int h){
 
 }
 
-void Platform::RenderImage(Image* image, int x, int y, float angle){
+void Platform::RenderImage(Sprite* image, int x, int y, float angle){
 	RenderTexture(image, x, y, angle);
 }
 
 
-void Platform::RenderTexture(Image* image, int x, int y, double a){
+void Platform::RenderTexture(Sprite* image, int x, int y, double a){
 	SDL_Rect srcrect;
 	srcrect.x = x;
 	srcrect.y = y;
