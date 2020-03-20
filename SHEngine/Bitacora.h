@@ -5,9 +5,9 @@
 #include <string>
 #include <iostream>
 #include <fstream>
+#include "SimpleIni.h"
 
-enum LogType
-{
+enum LogType{
 	Info,
 	Debug,
 	Warning,
@@ -22,6 +22,8 @@ private:
 	std::ofstream myfile;
 
 public:
+	int level;
+	bool esp;
 	Bitacora();
 	void PruebaColor();
 template <typename var>

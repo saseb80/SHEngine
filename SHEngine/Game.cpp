@@ -2,8 +2,7 @@
 #include<iostream>
 #include <sstream> 
 
-ListaT<int> extractIntegerWords(std::string str)
-{
+ListaT<int> extractIntegerWords(std::string str){
 	ListaT<int> Results;
 	std::stringstream ss;
 
@@ -13,8 +12,7 @@ ListaT<int> extractIntegerWords(std::string str)
 	/* Running loop till the end of the stream */
 	std::string temp;
 	int found;
-	while (!ss.eof())
-	{
+	while (!ss.eof()){
 
 		/* extracting word by word from stream */
 		ss >> temp;
@@ -26,48 +24,40 @@ ListaT<int> extractIntegerWords(std::string str)
 	return Results;
 }
 
-Game::Game()
-{
+Game::Game(){
 
 }
 
-Game::~Game()
-{
+Game::~Game(){
 
 }
 
-void Game::Init(Platform* platform, GameStateManager* manager)
-{
+void Game::Init(Platform* platform, GameStateManager* manager){
 	this->platform = platform;
 	this->manager = manager;
+
 	log.Debug("Game" ,"Game Init");
 }
 
-void Game::Draw()
-{
-	log.Debug("Game","Game Draw");
+void Game::Draw(){
+
+	log.Debug("Game", "Game Draw");
 	platform->RenderClear();
 	platform->RenderPresent();
 }
 
-bool Game::Input(ListaT<int>* keyDowns, ListaT<int>* keyUps, bool* leftclick, float* mouseX, float* mouseY)
-{
-	if (!(keyUps->size == 0))
-	{
-		for (int i = 0; i < keyUps->size; i++)
-		{
+bool Game::Input(ListaT<int>* keyDowns, ListaT<int>* keyUps, bool* leftclick, float* mouseX, float* mouseY){
+	if (!(keyUps->size == 0)){
+		for (int i = 0; i < keyUps->size; i++){
 			int num = keyUps->get_at(i)->value;
-			if (num == 27)
-			{
+			if (num == 27){
 				exit(1);
 			}
 		}
 	}
 
-	if (!(keyDowns->size == 0))
-	{
-		for (int i = 0; i < keyDowns->size; i++)
-		{
+	if (!(keyDowns->size == 0)){
+		for (int i = 0; i < keyDowns->size; i++){
 			int num = keyDowns->get_at(i)->value;
 		}
 	}
@@ -76,12 +66,11 @@ bool Game::Input(ListaT<int>* keyDowns, ListaT<int>* keyUps, bool* leftclick, fl
 	return false;
 }
 
-void Game::Update()
-{
+void Game::Update(){
+
 	log.Debug("Game", "Game Update");
 }
 
-void Game::Close()
-{
+void Game::Close(){
 	log.ImprimirConsola("Close Init");
 }

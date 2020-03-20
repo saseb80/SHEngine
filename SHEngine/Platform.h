@@ -8,11 +8,11 @@
 
 class GameState;
 
-class Platform
-{
+class Platform{
 private:
 	SDL_Window* window;
 public:
+
 	Bitacora log;
 	int width;
 	int height;

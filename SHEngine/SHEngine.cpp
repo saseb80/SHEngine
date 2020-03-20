@@ -9,13 +9,9 @@
 #include "Bitacora.h"
 
 int main(int argc, char* argv[]) {
-
+	
 	Bitacora l;
 	l.ImprimirConsola("WASSUP");
-	l.Info("Main", "Informacion");
-	l.Debug("Main","Debug");
-	l.Warning("Main", "Advertencia");
-	l.Error("Main", "Errores");
 	GameStateManager* manager = new GameStateManager();
 	manager->SetState(new Game());
 	manager->GameLoop();

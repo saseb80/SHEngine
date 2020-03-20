@@ -8,20 +8,11 @@
 SDL_Renderer* Platform::renderer;
 
 Platform::Platform(std::string name){
+	
 	CSimpleIniA ini;
-	ini.LoadFile("C:\\SHEngine\\cfg.ini");
+	ini.LoadFile("C:\\Tareas\\Septimo\\SHEngine\\cfg.ini");
 	int x = std::stoi(ini.GetValue("RESOLUTION", "width", ""));
 	int y = std::stoi(ini.GetValue("RESOLUTION", "height", ""));
-
-	std::string language = ini.GetValue("LANGUAGE", "language", "");
-
-	if (language == "eng") {
-
-	}
-	else {
-
-	}
-	
 
 	width = x;
 	height = y;
@@ -72,6 +63,7 @@ void Platform::DrawRect(int x, int y, int w, int h){
 void Platform::RenderImage(Image* image, int x, int y, float angle){
 	RenderTexture(image, x, y, angle);
 }
+
 
 void Platform::RenderTexture(Image* image, int x, int y, double a){
 	SDL_Rect srcrect;

@@ -1,54 +1,43 @@
 #include "Gif.h"
 
-Gif::Gif()
-{
+Gif::Gif(){
 	_vel = 1;
 	//currentFrame = ImageList.get_at(index)->value;
 }
 
-Gif::Gif(bool loop)
-{
+Gif::Gif(bool loop){
 	_vel = 1;
 	//currentFrame = ImageList.get_at(index)->value;
 	_loop = loop;
 }
 
-Gif::~Gif()
-{
+Gif::~Gif(){
 
 }
 
-void Gif::update()
-{
-	if (SDL_TICKS_PASSED(SDL_GetTicks(), _lastFrameTime))
-	{
+void Gif::update(){
+	if (SDL_TICKS_PASSED(SDL_GetTicks(), _lastFrameTime)){
 		_lastFrameTime = SDL_GetTicks() + _vel;
-		if (index == ImageList.size - 1)
-		{
-			if (_loop)
-			{
+		if (index == ImageList.size - 1){
+			if (_loop){
 				index = 0;
 			}
-			else
-			{
+			else{
 				_finish = true;
 			}
 		}
-		else
-		{
+		else{
 			index++;
 		}
 	}
 	currentFrame = ImageList.get_at(index)->value;
 }
 
-void Gif::SetVelocity(int vel)
-{
+void Gif::SetVelocity(int vel){
 	_vel = vel;
 }
 
-void Gif::AddImage(std::string i)
-{
+void Gif::AddImage(std::string i){
 	image = new Image();
 	image->LoadImagen(i);
 	ImageList.push_back(*image);
