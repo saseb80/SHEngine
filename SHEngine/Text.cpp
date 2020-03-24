@@ -36,27 +36,27 @@ SDL_Texture* Text::LoadFont(const std::string& font_path, int font_size, std::st
 	}
 	if (!font)
 	{
-		if (logger.esp == true)
+		/*if (logger.esp == true)
 			logger.Error("Text", "Error al cargar fuente");
 		else
-			logger.Error("Text","failed to load font ");
+			logger.Error("Text","failed to load font ");*/
 	}
 
 	auto text_surface = TTF_RenderText_Solid(font, message_text.c_str(), color);
 	if (!text_surface)
 	{
-		if (logger.esp == true)
+		/*if (logger.esp == true)
 			logger.Error("Text", "Error al crear text surface");
 		else
-			logger.Error("Text","failed to create text surface");
+			logger.Error("Text","failed to create text surface");*/
 	}
 	auto text_texture = SDL_CreateTextureFromSurface(Platform::renderer, text_surface);
 	if (!text_texture)
 	{
-		if (logger.esp==true) 
+		/*if (logger.esp==true) 
 			logger.Error("Text","Error al crear text texture");
 		else
-			logger.Error("Text","Failed to create text texture");
+			logger.Error("Text","Failed to create text texture");*/
 	}
 
 	TTF_CloseFont(font);

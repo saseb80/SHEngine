@@ -16,7 +16,7 @@ public:
 
 	static SDL_Texture* LoadFont(const std::string& font_path, int font_size, std::string message_text, const SDL_Color& color);
 	void Update(std::string message_text);
-	static Bitacora logger;
+	//static Bitacora logger;
 	~Text();
 
 private:
